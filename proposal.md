@@ -42,4 +42,14 @@ The authors of the database propose several pre-defined tasks. We focus on the �
 * Camera calibration JSONs (intrinsics + extrinsics) – for analysis if ML model is able to learn Geometric mapping without coordinate inputs. 
 
 ## Proposed Solution (High-Level Overview): Provide a overview of your proposed approach or solution. Focus on the key idea and overall strategy rather than implementation details.
+
+to add:
+Exo->Ego correspondence
+Input:
+Exocentric Video: RGB video sequence.
+Egocentric Video: RGB video sequence.
+Exocentric query track: Framewise object binary masks
+Output:
+Egocentric output masks: Framewise object binary masks
+
 ## Performance Evaluation Approach: Explain how you plan to assess your solution’s effectiveness. Specify the metrics, benchmarks, or evaluation criteria you intend to use and why they are appropriate for your problem.
