@@ -43,14 +43,22 @@ The authors of the database propose several pre-defined tasks. We focus on the �
 
 More information on the correspondence task: https://docs.ego-exo4d-data.org/benchmarks/relations/correspondence/.
 
-## Proposed Solution
-### 
+## Proposed Solution (High-Level Overview)
+Provide a overview of your proposed approach or solution. Focus on the key idea and overall strategy rather than implementation details.
+
+**Exo->Ego correspondence**
+- **Input:**
+  - Exocentric Video: RGB video sequence.
+  - Egocentric Video: RGB video sequence.
+  - Exocentric query track: Framewise object binary masks
+- **Output:**
+  - Egocentric output masks: Framewise object binary masks
 
 ### Plan
-* Data exploration – subset selection (topic, modality, availability of metadata of interest, size).
-* Data processing – extraction, loading, processing.
-* Background research – baseline + materials linked to competition
-* Modelling – 
+* Data exploration – subset selection (topic, modality, availability of metadata of interest, size).
+* Data processing – extraction, loading, processing.
+* Background research – baseline + materials linked to competition
+* Modelling – 
 
 ## Performance Evaluation Approach
-Explain how you plan to assess your solution’s effectiveness. Specify the metrics, benchmarks, or evaluation criteria you intend to use and why they are appropriate for your problem.
+Explain how you plan to assess your solution's effectiveness. Specify the metrics, benchmarks, or evaluation criteria you intend to use and why they are appropriate for your problem.
