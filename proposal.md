@@ -44,21 +44,38 @@ The authors of the database propose several pre-defined tasks. We focus on the �
 More information on the correspondence task: https://docs.ego-exo4d-data.org/benchmarks/relations/correspondence/.
 
 ## Proposed Solution (High-Level Overview)
-Provide a overview of your proposed approach or solution. Focus on the key idea and overall strategy rather than implementation details.
-
-**Exo->Ego correspondence**
+### Exo->Ego correspondence
 - **Input:**
   - Exocentric Video: RGB video sequence.
   - Egocentric Video: RGB video sequence.
   - Exocentric query track: Framewise object binary masks
+
 - **Output:**
   - Egocentric output masks: Framewise object binary masks
+
+where:
+* binary mask is a pixel-wise mask saying whether a pixel belogs to the object of interest or not
+* framewise means video is considered pixel by pixel
 
 ### Plan
 * Data exploration – subset selection (topic, modality, availability of metadata of interest, size).
 * Data processing – extraction, loading, processing.
-* Background research – baseline + materials linked to competition
-* Modelling – 
+* Background research – baseline + materials linked to competition.
+* Level 1 – basic correspondence
+
+* Level 2 – correspondence with occlusion
+    
+    * object outside ego pov
+    * object inside ego pov but is covered
+    * etc...
 
 ## Performance Evaluation Approach
-Explain how you plan to assess your solution's effectiveness. Specify the metrics, benchmarks, or evaluation criteria you intend to use and why they are appropriate for your problem.
+Metrics:
+* Location Error (LE), which we define as the normalized distance between the centroids of the predicted and ground-truth masks.
+* Intersection Over Union (IoU) between the predicted and ground-truth masks.
+* Contour Accuracy (CA), which measures mask shape similarity after translation is applied to register the centroids of the predicted and ground-truth masks.
+* Visibility Accuracy, which evaluates the ability of the method to estimate the visibility of the object in the target view, as in practice it may often be occluded or outside the field of view. We measure this performance using balanced accuracy. Note that, in contrast to the previous metrics that compare segmentation masks at frames where the object is visible in both views, this metric is computed based on all frames with query masks.
+
+Benchmarks:
+* baseline approach found on database
+* ObjectRelator: https://yuqianfu.com/ObjectRelator/
