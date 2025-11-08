@@ -1,0 +1,38 @@
+Task: write a script that downloads and stores frames and associtated annotations from the EgoExo4D dataset. 
+
+Script specifications:
+* runs independently for scenario cooking and scenario health
+* takes as input split_{scenario}.json file
+* for each uid in the split, download the takes in downscaled format \
+from the dataset (`downscaled_takes/448`) and gets the associated annotation from \
+'/Users/marcolomele/Documents/Repos/ego-exo-correspondence/annotations/relation_annotations/relations_{split}.json' \
+creating the individual annotation.json.  
+* extracts from the takes only the frames that are annotated in annotation.json file, found at key 'annotated_frames' \
+and stores them as {frame_number}.jpg, divided into folders taking names from the annotation file: {exo_cam1}, {exo_cam2},... and {ego_cam}.
+* deletes the original takes and stores just whats necessary for training and testing. 
+
+
+Output directory structure for each scenario:
+
+output_dir_{scenario}/
+├── split_{scenario}.json                    # train/val/test UIDs
+└── {take_uid}/
+    ├── annotation.json           # processed masks + metadata
+    ├── {ego_cam}/                # e.g., "aria01"
+    │   ├── 0.jpg
+    │   ├── 30.jpg
+    │   ├── 60.jpg
+    │   └── ...
+    └── {exo_cam1}/
+    │   ├── 0.jpg
+    │   ├── 30.jpg
+    │   ├── 60.jpg
+    │   └── ...
+    └── {exo_cam2}/
+    │   ├── 0.jpg
+    │   ├── 30.jpg
+    │   ├── 60.jpg
+    │   └── ...
+        ├── 0.jpg
+        ├── 30.jpg
+        └── ...

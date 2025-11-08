@@ -1,5 +1,12 @@
+# other
+mentalnotes.md
+
 # data
 ego4d_data/
+outdir/
+output_dir_cooking/
+output_dir_health/
+annotations/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

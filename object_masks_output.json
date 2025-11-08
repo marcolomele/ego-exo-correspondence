@@ -1,0 +1,2153 @@
+{
+  "object_masks": {
+    "test cassette package_0": {
+      "aria01_214-1": {
+        "annotation": {
+          "0": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "DoZQegpgDATAtgbQIxKm9UDyAlC2DsmA9gFpwASArACoAmAcgLIDGyAnIwCwDSn9AzI0EwBjGEKGiRSTOOGz60tArQy1ymasxrtmKKj36s+7fVTrlRjcf2Kzp-gBl+i2XtliuYgfZ3TtGAF6qKr0WnYuIQG2MLrB6OqYTi6RCjLiIvIZolnekT5qXpnesRmSwopFjnypSFzO1fVgCACWLVBAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 748.87805175781,
+                  "y": 1086.5428466797,
+                  "timestamp": 1693214729481
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693214729481
+                }
+              ]
+            }
+          },
+          "30": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "PoMwFiAMDMYNoEYDsBpArAGWgOWl7ATAJJICy0552CA8gdYXQwXVbQaSwrjZL5LUE1akUQP4ixCPtNH9RI4awIoAbCgAsGNACld69RsK5qTDl2FV6Lc8bw4cg8ZEKDjNzu4wb03wuW8AzAocLkpQry1g93D-EMJvXw1SLTwjFTR0FABeAEEAQwA7AB0ABQQgA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 599.69689941406,
+                  "y": 1271.7932128906,
+                  "timestamp": 1693214781562
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693214781562
+                }
+              ]
+            }
+          },
+          "90": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "IoSwqgNgDAjAdgbRgZgLJuQOWQGQ6gJgHkZMCyySKYjiYB9AU0wAUiB7ATRgCUZ3mPIgFtuLXgDNMwEWJjApMuN2AwWiosrXyNW1eukdu7KAYDKm7nCgLMFrQENSMWJhp03sIkSivyL5z8fLxpfGkDQkKgfcOjYUJIaNBoSVNJycmR6KTNMACsADXkCHgBzTB5MCCLgAnYpSpYVAghFO2a8toA1bgQCP0poumCXaNDR318qfy9J2LiXNLjYZfHo2hjfSlGCHAAWMnRD4gzDrFJz7DdaN2xCWnv-bDwr90I7zMJUPZfcfHxgF1GCAoEA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 741.80639648438,
+                  "y": 1160.0787353516,
+                  "timestamp": 1693214841650
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693214841650
+                }
+              ]
+            }
+          },
+          "120": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "LYTQBsAMCMB2Da0DMBZATCpB5aA5N+uSAKlgIIBKAZrgIaQA2I0AwgAo0D8A9swCLAAprgB8FAFrQAogGthAHgDKkgBIBLYQE4A6pIDSAE2EA2ADqSqkK9By3rWe9bw3oMXK8gOYVu69t-vTxtA5ysYL0hFGnFcAH1mAAtoAF1o3ANmKmgQGmTcAHNmWAC-DwcPIJ9AjDQsHCrS-3dAr0JaisqsWrD68p9unzLurs8CGwJhifwHLsJXPDG3Kfnp0dXZqbDgsJ2dm3rw3a6InG3dvYcJzDmNtvxMa6m0ABkZAwN8yCA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 773.26593017578,
+                  "y": 1047.2611083984,
+                  "timestamp": 1693214926003
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693214926003
+                }
+              ]
+            }
+          },
+          "150": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "BbCmFsAYEYDsG1oGYCySByAmFmDy3UNtpJdJyYzL5cA9XcUdAI0gGUAtaAIQEsmAfAHUuAcVBMAHPC7oA+k0wBDLknhMAMqC4AzGBRL4qFXCRN5y0LFSsloAVR3z09gJrQl0YE+boh7gANoHScldHhA6GYfdFp3WmgApwATeXjoAF0nJgBjd0R4JwBzdFB3ACszCksyaGNyU2qm5st0KpN2hotG0mg5dAAlJwB7SAAFLlh0NicxuHcpx3QARWgAawX0AA0RyF53YfQOWegy6EO5J1hIZM3L9DnmA-QlXddZDCtMdFQ8bDwrPparVSEDDPpQeCgdDwWYQTZIYiEY1gbDIfCapioXUccDKDU6vjMZRYTZTBiiYTsWTMd88EgNN9CGgcKYfizUAAWDTMAKXSBAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 843.56658935547,
+                  "y": 1018.4292602539,
+                  "timestamp": 1693215067587
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693215067587
+                }
+              ]
+            }
+          },
+          "180": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "OoDQagdgDAzAtgbQIwwDIFYDSMCyAmAOUKiiSgHkSrqqlKzLTGGySkCkwBTAgIQCUAWkgAGUAMY8AkgF1h0DtXJ5GFUiXIN1FVvSZtFdAyrarNNCxROWbHArhjmdzp2tbOqrjxu0fNTgN11AODdLTC3DTJeOB4AewIhJAAFJDieZPIk6GSAM0TyZOEAGyh+fIAVcggATSQASygK-JByYrrcqDB8mvIAazquKGB8hHIAKzqAIygQfIA9cgALOrEa-IBBAHM6gF4EfN5cuoAeAB18gBEAEzqALnn8gDEpuoAOAH18qQBDOvQfvlMB86jBxPlUPM6kguPlyAg6uQtvkkII6qhkQR0DU6lJ6vkAGwgOoACXG+TeYDqTz6+QA3ABVOoAYTg+V2gmE4SikRcvj5QW5kXMeh8EVFehCLF5yn87BU8s0REo5BqS1yQyAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 821.83471679688,
+                  "y": 1023.5467529297,
+                  "timestamp": 1693215582791
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693215582791
+                }
+              ]
+            }
+          },
+          "240": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "JYKwOg9gDAjAdgbRjA8gJgHKbSmUDMAMgGwBSZuuG+GqdWlMDqmTOdKA-GgPorEBpNigDcACwAmGMCgC6ALRgA1Jk1gpYUDZo2od+nXlVQtRjbgCSAdnTaTJvbhPpa9t-advP7n89gBZfEDgtE13XV8PMI88UwjPeOiEw0Z4jjxdRi0wrIifbxiTeQwADQAzDAAVGDEATRgQDAQK6rL6xtkKgFUYAGN2jB5umAB1RWosSbRAqf92cxwHVyc07Iz1tdM-WM2VpJz9je0OfQzDUyYaaausfx4ukF6oIA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 906.80902099609,
+                  "y": 1094.5067138672,
+                  "timestamp": 1693215710088
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693215710088
+                }
+              ]
+            }
+          },
+          "270": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "HoCwdg1gDATAjFAlgbTgNgLIGYByM8DycOUsJUB+cRN11VtN+AZgKZ4AmAGnBgDoBzHAG4ACgC04ADgASAdgCSs2VmwYo1UhQSatFGAT2lDCWhQ1FjVDXhw67lQwBkArGvxYnAFm1aTeyz8NPwQQoNDAwl4YVwBpF3jsX0DfY2CwyxTzUNS0uE1MnKyA0xzdIwtcgBEAAxwuZhwauAEATTgAQxxxRuA4VnaAYxxkRoBdOA52jhw+Rr5J6dn5xf6RxtQBtbmcdq2hUd3+9oPGvZP1o-3l+tWQG4A1OGZ2gCtuxqeXuHeenC+3h8cABVFrtAA2u0aAGUwXAALZQnCwtoIpEo9qI1qNABKcBA7TA9Vx+MJSIAinCAPZI0SkuCiAgNHB0gkMpmNVntRnMrlwckcnDwpDtaEEADqjWFiFFEqlIrgYslQoVYuZ0BlcGBcpwGva2uVeq1OteUFe7QeBAejVN5rgluViAVXCtjRAZvaLutOAEUAg7VaBGBjV9-rggeDPr9AddOFY0bgyCDjXjYaTkdT7XTKYT2ZwHCg4PafGTOEGCeABAAKo0AEaF9qVms4etFuBNxodKDw9oAfWrjRqDbgAAFm0O22PGgB+HtwACC0Jnc8Xy-a8+bAF45wBhJc4bftKo4xrCKntACi5NP57gV5vl5POAAnLeAOLXl-vz9SCRwGSiI0v6SABjRyOSkgKIBOBoH+ABS0EuBBcBOGA7BeDikioehmEoVS7AwLhOBoXgREkYqkgEPC7AUdQ1EkFWkjduwBDQpICLsDgjFwDA4KccCkgwK8nFcExIAsXwkhxjRYySBggwER0kixL27AuA8qCWAU9isNCiDMFAQA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 774.54016113281,
+                  "y": 1034.9675292969,
+                  "timestamp": 1693215829689
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693215829689
+                }
+              ]
+            }
+          },
+          "300": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "Bocwxg1gDATAtgbQIwDYDSBWTAjAJgOQH0B5AZWQDMoliZ8aHjGa7nb6n2aBdATQA4k3CgHEUAKQkB2AJIT5AWQDM1elHUbqxTZpo6Neplt0cY2zmfV6D21UnW0oHJPjpmXS5-u8-ffqEYBDA722mz2QYFREd6B-vH6LjHW1la2uumacakGCrgApvgABvjcAFpIhEhKtmxpjPWc9Q6NKZxJWg2dTGp13UgAAhQE-NjIru2T1txguCBQQA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 710.62646484375,
+                  "y": 1019.6104125977,
+                  "timestamp": 1693216040529
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693216040529
+                }
+              ]
+            }
+          },
+          "330": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "MoGwuiAMBMCWDaBGArASQGwA0DyALSi20AcoSYpJEadmTXYQ7cQMz3WPYsCyAhgKbFIAfQBaiEpOLkOtOYlakAxsQCCmAObEABpAAmmRABlgW5LEMAWAIpbuIQwE4ACltQBrQwD5bxAMIOiEqQrsQAetgAdoYAZpCRMcQAOtgA9oYAtojckrSUBNj5+YRFBRSFjKQE0lUK0IVlFVQljZwUzfKdlO1y3b2N3dbJidqIAEriBcUNzaX5efM97ZQLC9Nzixula5SixAAqiYYgAJqIiSeJAOqIGmeJwkeI2vfE-NeIAKri3Dw8JH1AetgUCgZ06tJfjUpDDIWwpBRlltkSiUTteCJsO5IJ9sFd4LZIEA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 741.53955078125,
+                  "y": 1042.0971679688,
+                  "timestamp": 1693216139617
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693216139617
+                }
+              ]
+            }
+          },
+          "360": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "OYbQGgNgDArAFiAjAZgHLIDJoEwFlsDyiB2qxpx5ZJZUUhiqFUjhUNwApqgDoFgBNRABMowAGaoA+vyEB+OJIDCgxAB5FqAKIB1IQC4AlpIASexADYAVpIBS5+JNznsx1LMRRNic6jcAWc1sbVAtzAElNAE5zADEQgG4ANSElEIA+cwBBNwADKAAtAsQ2EgI6VnKyxk9EACEkggAjbmgBYoBDKABxAA5wgHZcf3waYnZa9FHsLFxkYaqKMbHPPHnCRfKWRn6JuiI6fc89vbx-JOlJADsoYSEAW1QAXUkAZURgIUNUAskdD6Ekl+qCQcCEHVQAkkUkQhiEPB+kk4iAACsUKuwWFtKOVPNitixMVjDoTcQTSYc8cTKPQ5kw5nS8Bs9uMylB-BgBrYLOF+jzeiYueICgAlYgCTiPGAYGDcgDSMAVtjQJHYJCwGA50rQ62G+FQ9wKwGAUCAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 725.37042236328,
+                  "y": 1045.6341552734,
+                  "timestamp": 1693216293851
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693216293851
+                }
+              ]
+            }
+          },
+          "390": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "FYSw5g1gDAjAdgbRgZgLICYBy6AyAWbQrYo0mAeRIuPKlkxk2UzvJn3wCkBWAaQHYAkgDZUeWnRitJFRunrValCQAUAZphwBlABow8YMEwCae1AAMjALgD6egBLGjAPgAWegMIqjAEygB7PQAhAFMNPwAdYxgggHUNEKhXaOA6NMkJdIy0ihzMtLYiQqw0EjLScsqK6ohUVyNEgDU9CPJgBqgAFRbyAFtfKABFPQBdchVXTABjANiYMcHJvzg51q0lqAAbOYAtcljJtSS52PIESdSfOa1yc0neqHM5-2nJgCUYAD05kEw1SbmCDmU0wwEmIxgsTmnUwi0w9geAFV0Fo5ipMLFfip0MBGjBeqhMZhOji8cBCb9GqSYGBUDosTAQpg8LoYMBMMZfh8mXgAIbRXjmDTcczRQQAIw0-BGYp8GmEMpggjlmH4CGi9jUGgAnDtogAxMAaKzGaKdchhTR4QYwRrRFTkEZGfxQHx6F6fIw23l6OCYSyYLQwcx6CCYcVGTowOxs6ZGPFTaJSNhQWjJ9Op2AFSiEagMHNYPNFgsYHPUUvoVDMCBvTYgKBAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 716.78063964844,
+                  "y": 979.44195556641,
+                  "timestamp": 1693216402812
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693216402812
+                }
+              ]
+            }
+          },
+          "420": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "MoNQOglgDATA1gbQIwBYCyBmA8kgckrGXIknXDNE46jfaonIpAEzgEMoALXAYwFUAelgojMOMrQJTxKADIAONgFNcAFSwBNDUlVIA6gDNcILAHNtPAjgCsAaSaF8jNFAJR37rO7wwyvn-R0tCSYgTCh4cHEEZTk5LEUkRH0hJR+xOkARmiqELi2cCBIAJJsefIAukUAYqZ5AJwaRQCiAFZ5ANx8RQBCAHZ5APwACkUA+liqrbgccHxICJrTBlCm83xYFdMANlBs8wCKWMzTAPZQAFrzfbhw0wBKSHzzeafTABpIB-MCaMx5AFs9kglDp5qpcAc4Lhtkhhtc0HxofcYADdKY0O9oRoYK1dAADNAXaFsGDAPRINzeLweKBeJAeYRjNCZIwIGA8bQZOkMum+Hm0nDuJwhXwhKKREXRMXSxzhGXyuWypJi0L3UxsOBQIA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 680.30633544922,
+                  "y": 1025.5992431641,
+                  "timestamp": 1693216573268
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693216573268
+                }
+              ]
+            }
+          },
+          "450": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "DoMw1gFgDATAlgbQIwDYBSBWAcjJUoDyMWSRBhSAMgKoD6GAsgPYAGaAzDg5+5e91n4x8EACZYAmgWrIAtlAbEYA4qVJCQAUyzaAVhKQA9JLO1wsAJQBaSAMZ58SEgSdKc7mC5fuopVUQpyPBdCX3wgwLCQ0IcYkAZaECwAFRgAQwM4BjSkgA0YUQMQ4uDSinxCT0cSX3IyJUUvcvDKr2Da0kcWjuKeqPaHXsH+iqDyKI7m6OjwwbVZ6bVF8eGJysUGABZFQT5BDe2hff5eHm5uSm3ZWwgwKCA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 673.92138671875,
+                  "y": 1011.3138427734,
+                  "timestamp": 1693216673135
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693216673135
+                }
+              ]
+            }
+          },
+          "480": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "KYIwuglgDATA9jA8gawKoEYBsBFAVgOQBk10BOAJQIEkSAeS-AUQBsMA+PfAEQDt2AFAgGF+ANXQB+ZhG4BlcQF5kMrgA1xAbgAmMgOIA9cQA4A+jIBSAY3GYAWjIDSAC3EAWVDMTNx6cp-4A6uhQcE74ULJBUMxhiKJREGFQAJpBiABmYTC2acBJYFEAhkmFUfpJlmkAOmHo6WnJtQDmUQFJyFEAKrEAtkG+STz9-EnYqujoPU34iLLjMMjTcfNO0-iq467A0wCyANqbWtOEYOMArIXTDibjmCZXILdV0+Za4wBcqtMAYk7jAAZQcjTACCPHGWigyHS+DAiFQyTqUCcMNsiFUiKaUCaMOSiFsmKgWlRiCqiPSRJJZPQWMsuMQ+nJUBAJMZNKg-xJ-0RlgmiCgAsQSCgiHQQv5oqg6HwwRFwsl0rFwUVgpgMtFQp2SBgWqF+BgIqlhuC-NlxvN5tNlqlGoFYrt-IFNodTudTvt7sdMIgwHwyCgAVs6GwiB6vv4viD-EQcF9cCg2CjiH4MIj-CTKfwaaDcHw2Bh5HQPERPHwshh2EmiNz5bzVaL+E6BfQzGrZebrYbTfwhc7pdQFfQyDbA7rw-QudHldwiJDo4jM-Q0YCMPjEFniBX+DXG63O98cRhPCgi-Im6PyMRZ9UF6cV-Rt8RsnP+B6UHX6GfN-CugkifQILflAAASEhwIiILJDCUBUGwxboAAQlBMwOGwnZqDC+A7EoiKMMhhD4GwH7fPhiBsE0iLfLYMKEFACjpIiwHIeYMBsMAjHUfgVCsVoiJUJxwEAMwSJYfECYJgIgIxewwsBrgSFJ6D8TC3wXMyjHIboamiegujfroADsIBQIUlHfsBRnqeg3xboZlhQDpjC4DC7yiJRzn4O8ASUSi+AaBi6BcBAML+YiXC+bQAWMDifkEoFMUaHFXDpDCChxQhKWEXFQiZbQeyIkIwCpfl6CFal1IIUVWWIhlMJsCVCHEoRFVNWwYAQXS+ASO1iGdW1iImIgVWFFAYBBp6bqTa6RqOhN00ehNC0CvggnmGcDhwDOuBQEAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 652.97308349609,
+                  "y": 1013.2579956055,
+                  "timestamp": 1693216826093
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693216826093
+                }
+              ]
+            }
+          },
+          "510": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "HoFQ1gVgDATGDaBGAzAGQKyrQFgLLIHkYoDEiCSyYA5EAgYQDUAzagXgHMBNRAcQA1WiAHY8YAWyjYsubAGlMeZNRqqKUMlA2l1m7XsTUqAewCm1AMbUAWjwAGiAPqsO1YDyQAdVmGoAjHjBDVRVQkPCjYPUSGB1DRH0tEg0tUkp01JSM1ISktOyC-PycgAU3VgBDRADET2oK1gATJx4uSxdEAF0efmpTVgALRHgeAFVqAdYIRAGeHPSi3IoExbys1eX5tcR4uOF-cwqoYGtELgIB82YoLlO6ABtze6hTU8ztFJ1PrSWfzd13it9P9NED1n8DF8wWRIbD-hCKERUHgAEriOwASygQA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 702.93273925781,
+                  "y": 1181.5656738281,
+                  "timestamp": 1693216956702
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693216956702
+                }
+              ]
+            }
+          },
+          "540": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "NoXQ+gegjFB2xQEwDkVWQZlcqB5FiAsovgFYAmyIuANgFpQCmADAIqPIS4C2D5bHarAY1mxfDnzi0E9Fjwy0UZrmZ41q5ZpVqdW3dtUHj+raeZ6Vp3Oat6blyzcPXbLh9pUAxANwANXABzZgARAB5MYkiCaNiMKPj4lESEhNRUiGRYAAtkOmRWAHUoAAMoADUAS2QAQ2RA8qgAHSgwasowRpaAI3bORoQAY2qAM2Qmxr8oEerqgE1GxsrZ5ELFqFJqgGtkAFVG1igAe2qjgsbRABVSPdwt3aZmYBum3HIHgH5um4ABCAeAFzZG4AcUKDwALLAbgAZABKD0Iux2ENIlygAFEIDsfIF0QESjtssxuOjKHQdi1GMV9BYLLS6Qz6ZocGdAhwAXQGCFKhy-NzSBx-AwAEKC5AAPnKDB+NA4JWYlwY1AACmNuswVQxXnCxvwjnMoHNcABlMbBbiGwq4XZjSrMboMIx0jQu5kaPDKKxGL3OT0WH0sz3OGSewgQmGJdIR+KkGgQACsQA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 1182.2933349609,
+                  "y": 1078.2746582031,
+                  "timestamp": 1693217064399
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693217064399
+                }
+              ]
+            }
+          },
+          "570": {
+            "width": 1408,
+            "height": 1408,
+            "encodedMask": "PoGwegKgjATCDaUAsBpJBZJAZAzOnAclAPIxHElmXoynlV0lQE7EAMUb7n3bXH-Ab178eQvmM6jpFCn2FS53OV070a+TAF1iAIzbA9bXC3QRiAOwBmBCwQAKATSjQAigHMCAawIgAGlAA6lAAqp4AVgQAFgHBjp4AlgQApgEBWp5RBAAGAc4Ahp6eADoBiMmeNn5lUOGeACYEEOlQALYNBK4BxVCuWQDGBK3BwFAAylm63sFgQVn5BO7B+VCOWdkpwdlQWlnABPnB-VDZWVoEYMH1ULpnBPBXUO5Z8AR+j+F3Y8G6vUnnFgAaicoICkgsosCtFB4ElBslgQAtKDAJI2fLAkJQfpJHxaYEAJSgViSAHsCI5ga02CAkgTiBBgV42KSkoDiK5gVY2ATIvBiK0sfk2H5ImBiFEsQB+eCRABCySxAC5gJEAGLZLEAdnqkQAEvksWxdJFiViAMJgSIAHhAWMCxECkXCbFyiiEPEk8nEnuMeCQ7FI7A4wZIEhECgU3t9gkUcajgg4JjIeDIKeTmHQFi0XmybCAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 878.67816162109,
+                  "y": 911.02178955078,
+                  "timestamp": 1693217156615
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1693217156615
+                }
+              ]
+            }
+          }
+        },
+        "annotation_metadata": {
+          "annotation_uid": "6859ba95-0f63-42cd-a3fa-1b284b9b0ea8",
+          "annotator_id": "6482156831803559",
+          "response_time": 1693219276,
+          "job_id": "742382484362055",
+          "response_id": "682896063359297"
+        },
+        "annotation_fps": 1,
+        "annotated_frames": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210,
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          420,
+          450,
+          480,
+          510,
+          540,
+          570,
+          600,
+          630,
+          660,
+          690,
+          720,
+          750,
+          780,
+          810,
+          840,
+          870,
+          900,
+          930,
+          960,
+          990,
+          1020,
+          1050,
+          1080,
+          1110,
+          1140,
+          1170,
+          1200,
+          1230,
+          1260,
+          1290,
+          1320,
+          1350,
+          1380,
+          1410,
+          1440,
+          1470,
+          1500,
+          1530,
+          1560,
+          1590,
+          1620,
+          1650,
+          1680,
+          1710,
+          1740,
+          1770,
+          1800
+        ]
+      },
+      "cam02": {
+        "annotation": {
+          "0": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "CoMw6gdgLAhgDAYwEoCZ4FEDcBxAnAMVwAkAOIgNgGlyApAVgFkoAZAZgDkUGPXm7mWdSkPIBJfv15ChHAIwB5BSk7tZcOIvWaNKefJQb1alWtntWDXTpUXbl7pfMDhA+k0oso7kZVzYAfACCkg5cdsq8LLbmqor6qlpWcApG8uqp6XDKCmqGyWkp6YXFmgVpyYZqZbkFeSn1GoUV5SUZ9eWZnYkdXZn6LQlmulwApgDawAAmKEA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2409.8940429688,
+                  "y": 1281.7713623047,
+                  "timestamp": 1694459964167
+                },
+                {
+                  "x": 2558.6579589844,
+                  "y": 1339.9089355469,
+                  "timestamp": 1694459970072
+                },
+                {
+                  "x": 2452.6423339844,
+                  "y": 1377.52734375,
+                  "timestamp": 1694459975168
+                },
+                {
+                  "x": 2497.1003417969,
+                  "y": 1319.3897705078,
+                  "timestamp": 1694459995567
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2668.0932617188,
+                  "y": 1353.5883789062,
+                  "timestamp": 1694459967103
+                },
+                {
+                  "x": 2497.1003417969,
+                  "y": 1333.0692138672,
+                  "timestamp": 1694459972463
+                },
+                {
+                  "x": 2480.0012207031,
+                  "y": 1338.1989746094,
+                  "timestamp": 1694459977407
+                },
+                {
+                  "x": 2403.0544433594,
+                  "y": 1213.3742675781,
+                  "timestamp": 1694459980351
+                },
+                {
+                  "x": 2404.7644042969,
+                  "y": 1197.9849853516,
+                  "timestamp": 1694459988591
+                },
+                {
+                  "x": 2464.6118164062,
+                  "y": 1295.4508056641,
+                  "timestamp": 1694459990631
+                },
+                {
+                  "x": 2529.5891113281,
+                  "y": 1341.6188964844,
+                  "timestamp": 1694459992728
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694459964167
+                }
+              ]
+            }
+          },
+          "30": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "DYPQygdgLAVgDCASgJgDwHECc6Bc6DsAUgKyFHEAyUAsgMx10ByyzjtV1UVFxA0nwN70ayTnQq1WARgDyyGbLhyZcVQriKNq7QtbypjWbJb1T1ZB1NVCANn68ufGu0pcbJXgD4AQu-omJZnM2OgdOQP8FOUN1TTiVDRVFM1UpJVSE+IzsxNT0o3zCgzzM9K0E7MUs3O1NbXrawwaleQblI2YZAFUAMwAtABNkIA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2435.54296875,
+                  "y": 1286.9011230469,
+                  "timestamp": 1694460012623
+                },
+                {
+                  "x": 2447.5124511719,
+                  "y": 1374.1075439453,
+                  "timestamp": 1694460014951
+                },
+                {
+                  "x": 2503.9401855469,
+                  "y": 1322.8096923828,
+                  "timestamp": 1694460016142
+                },
+                {
+                  "x": 2558.6579589844,
+                  "y": 1333.0692138672,
+                  "timestamp": 1694460018448
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2497.1003417969,
+                  "y": 1329.6494140625,
+                  "timestamp": 1694460020112
+                },
+                {
+                  "x": 2498.8103027344,
+                  "y": 1331.3592529297,
+                  "timestamp": 1694460022343
+                },
+                {
+                  "x": 2522.7492675781,
+                  "y": 1326.2294921875,
+                  "timestamp": 1694460024079
+                },
+                {
+                  "x": 2399.6345214844,
+                  "y": 1221.9239501953,
+                  "timestamp": 1694460027231
+                },
+                {
+                  "x": 2420.1538085938,
+                  "y": 1329.6494140625,
+                  "timestamp": 1694460030615
+                },
+                {
+                  "x": 2471.4516601562,
+                  "y": 1293.7408447266,
+                  "timestamp": 1694460033248
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460012623
+                }
+              ]
+            }
+          },
+          "60": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "HYMwJgtgLAnA5gJQEwEsAMA9A8gfgCIAcAkgOwDSArJQDJS31QCySjTAzK9WwHJLd1UmUMnXZdejHm3pssARl5Y08uUrTqNGucq3y9fNKsPMsfFklPdpTMxL7SOwqAAkAXM+IkiBAFIwAYsR0HCxS1BahXNQU4vbcqgmG8fpq6kZp6mra8plGeZkZSglZRaWGWZpJ2spyRmXZmulpqZWtbZU5jfGaOQradbZ8IAAKAIZgSEA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2433.8332519531,
+                  "y": 1273.2218017578,
+                  "timestamp": 1694460045119
+                },
+                {
+                  "x": 2445.802734375,
+                  "y": 1379.2373046875,
+                  "timestamp": 1694460047519
+                },
+                {
+                  "x": 2548.3981933594,
+                  "y": 1341.6188964844,
+                  "timestamp": 1694460052431
+                },
+                {
+                  "x": 2493.6806640625,
+                  "y": 1319.3897705078,
+                  "timestamp": 1694460060912
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2401.3444824219,
+                  "y": 1191.1452636719,
+                  "timestamp": 1694460049103
+                },
+                {
+                  "x": 2490.2607421875,
+                  "y": 1333.0692138672,
+                  "timestamp": 1694460054775
+                },
+                {
+                  "x": 2483.4211425781,
+                  "y": 1327.939453125,
+                  "timestamp": 1694460057423
+                },
+                {
+                  "x": 2418.4438476562,
+                  "y": 1317.6799316406,
+                  "timestamp": 1694460063832
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460045119
+                }
+              ]
+            }
+          },
+          "90": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "HofQtgNgLGAMDaAlATBWAtA8gLgGIFYBpfAGQGYBZKci5AOTLoEY7lN6XGn2HbeySUCpSJFKjZMNbT6s1phZsWTWKu5rMsBetiKFmnnKOspk8cMHCrZhoLsA2AJIBOAOLZXT0gKHGOh5h4mKlphQ1NmVSDdSI043SjdBSiVVS0VZM1-f24dPM005TTiktKy8q02AGUAewBNADNkIA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2413.3139648438,
+                  "y": 1268.0919189453,
+                  "timestamp": 1694460068760
+                },
+                {
+                  "x": 2437.2529296875,
+                  "y": 1374.1075439453,
+                  "timestamp": 1694460071248
+                },
+                {
+                  "x": 2483.4211425781,
+                  "y": 1334.7791748047,
+                  "timestamp": 1694460073120
+                },
+                {
+                  "x": 2488.55078125,
+                  "y": 1321.0997314453,
+                  "timestamp": 1694460075184
+                },
+                {
+                  "x": 2524.4592285156,
+                  "y": 1345.0386962891,
+                  "timestamp": 1694460076408
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2480.0012207031,
+                  "y": 1338.1989746094,
+                  "timestamp": 1694460078072
+                },
+                {
+                  "x": 2476.5812988281,
+                  "y": 1336.4891357422,
+                  "timestamp": 1694460080273
+                },
+                {
+                  "x": 2509.0700683594,
+                  "y": 1339.9089355469,
+                  "timestamp": 1694460082448
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460068760
+                }
+              ]
+            }
+          },
+          "120": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "OYLQ6g9gLAhgDAUwEoCYC8A9A8vAogHgHEBOASQHYApANkqS0gFkBdLBABRQH4YJGARAJqcAXABs+lAHYQAjCgAa7AHIoAJnIASAIxUA+BXIA6WKSoDWcc1NnssIAIrKwsgPo2AxsuBOEshzYAqsqBSMqcAGYAtrIAVowABmEA2ijJMQmMsWFqKFI2AMzKBQAyAKwlpVCMUADSFSg1jAWMjUWN1W0UFJrkpNS11CVQcFhwcLJYLWU0tVDltS0t83UV86UVVc3DwzVzjDP4uNSkKyUdlZU1uyjFrapYt5ONKBPKshNjn+OTP1+-42+H3+Y2BH0BoNk71GQJhgIBAL+gO+8LGWA+iPGj3RWAcUQcCBQQA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2457.7722167969,
+                  "y": 1290.3210449219,
+                  "timestamp": 1694460088273
+                },
+                {
+                  "x": 2473.1613769531,
+                  "y": 1276.6416015625,
+                  "timestamp": 1694460091232
+                },
+                {
+                  "x": 2527.8791503906,
+                  "y": 1322.8096923828,
+                  "timestamp": 1694460093712
+                },
+                {
+                  "x": 2555.2380371094,
+                  "y": 1326.2294921875,
+                  "timestamp": 1694460095872
+                },
+                {
+                  "x": 2457.7722167969,
+                  "y": 1362.1380615234,
+                  "timestamp": 1694460102448
+                },
+                {
+                  "x": 2466.3217773438,
+                  "y": 1114.1984863281,
+                  "timestamp": 1694460110760
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2507.3601074219,
+                  "y": 1329.6494140625,
+                  "timestamp": 1694460097552
+                },
+                {
+                  "x": 2507.3601074219,
+                  "y": 1327.939453125,
+                  "timestamp": 1694460099944
+                },
+                {
+                  "x": 2476.5812988281,
+                  "y": 1355.2983398438,
+                  "timestamp": 1694460105016
+                },
+                {
+                  "x": 2486.8408203125,
+                  "y": 1348.4586181641,
+                  "timestamp": 1694460107208
+                },
+                {
+                  "x": 2462.9018554688,
+                  "y": 1203.1147460938,
+                  "timestamp": 1694460109528
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460088273
+                }
+              ]
+            }
+          },
+          "150": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "NoDQagSgrAXAigZQEwE4CSA2A0htAOAXQDsBZAdQHkIAFJAPSQFE8BxAPgGE2BBAHgBEANlgBmEAHIEkAQwD2ARgBiMRQBYAMuKQUADDt075FCvK1mjJgFIZrWvUaP2Tz0wGYtz+3pd7qJYBQICOIAFjoAtoLyREjy+obqGhquWADcjOnpALwcAMY6BBScNlBYUOpIJKokSGa19XUunhTaDk1ObZ2ehgaOPXpOAyaG4m21caZjo8NEuQCmuUhAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2487.5021972656,
+                  "y": 1280.8768310547,
+                  "timestamp": 1694460167880
+                },
+                {
+                  "x": 2553.8015136719,
+                  "y": 1318.4794921875,
+                  "timestamp": 1694460170168
+                },
+                {
+                  "x": 2571.61328125,
+                  "y": 1317.4898681641,
+                  "timestamp": 1694460173000
+                },
+                {
+                  "x": 2562.7072753906,
+                  "y": 1319.4689941406,
+                  "timestamp": 1694460187591
+                },
+                {
+                  "x": 2471.6694335938,
+                  "y": 1366.9670410156,
+                  "timestamp": 1694460190432
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2534.0104980469,
+                  "y": 1325.40625,
+                  "timestamp": 1694460174728
+                },
+                {
+                  "x": 2515.2092285156,
+                  "y": 1350.1447753906,
+                  "timestamp": 1694460177336
+                },
+                {
+                  "x": 2468.7009277344,
+                  "y": 1158.1737060547,
+                  "timestamp": 1694460181343
+                },
+                {
+                  "x": 2534.0104980469,
+                  "y": 1326.3957519531,
+                  "timestamp": 1694460183304
+                },
+                {
+                  "x": 2535.9897460938,
+                  "y": 1319.4689941406,
+                  "timestamp": 1694460185215
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460167880
+                }
+              ]
+            }
+          },
+          "180": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "EYCwegSgrCCMCGBFATAPgMIE4BiOBciA8gPYAMAklAHIDMAssnQCwN0AmAMgBqJUDqyAGYA7WCDpIqHcgGVYbUREIBLXmEIcABrC6LCMiFSV0A1rGEBbWDP0yqw0gCsANtcJc7z0gHNXSgLp2FqTwfoQAxkGkAFphjnYOACquRMJ2AAqwiK4WRolUibDOZiZUAGr5ZWJmIFQA2vlcsACmZoJU-vl1CGZsVPD5ADqwYGbAVM35APo6ZvBUjtOwAKpmU-b5wLDpZv5Gy1Th5o6w0VTLB96wJidl-Acnyid20QeigifEdIMHKGwnFjoYAOMmQ4UedCmBy4yGcVlICMIsARCKojHo9GQtDoGJxeNxNA4LBotGQiTo6V4chkxFg4wAmrxuspRHsprxtNF0sgkWjCAjYFRkbB+aQRSKBUKURLpaLxXLEQKkfzkcqlQLEfL5VjBTytXKDerpVKZRKkbLJQA2ADSUGtbE0-mAyCAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2487.5021972656,
+                  "y": 1328.3748779297,
+                  "timestamp": 1694460310248
+                },
+                {
+                  "x": 2466.7216796875,
+                  "y": 1363.9984130859,
+                  "timestamp": 1694460312368
+                },
+                {
+                  "x": 2527.0837402344,
+                  "y": 1174.9959716797,
+                  "timestamp": 1694460313553
+                },
+                {
+                  "x": 2585.466796875,
+                  "y": 1337.2807617188,
+                  "timestamp": 1694460315112
+                },
+                {
+                  "x": 2587.4458007812,
+                  "y": 1333.3226318359,
+                  "timestamp": 1694460317256
+                },
+                {
+                  "x": 2557.7595214844,
+                  "y": 1346.1866455078,
+                  "timestamp": 1694460326032
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2535.0002441406,
+                  "y": 1345.1970214844,
+                  "timestamp": 1694460318393
+                },
+                {
+                  "x": 2529.0629882812,
+                  "y": 1338.2702636719,
+                  "timestamp": 1694460320264
+                },
+                {
+                  "x": 2545.8850097656,
+                  "y": 1301.6572265625,
+                  "timestamp": 1694460322376
+                },
+                {
+                  "x": 2528.0732421875,
+                  "y": 1341.2388916016,
+                  "timestamp": 1694460324768
+                },
+                {
+                  "x": 2528.0732421875,
+                  "y": 1211.6090087891,
+                  "timestamp": 1694460328864
+                },
+                {
+                  "x": 2498.3872070312,
+                  "y": 1174.0063476562,
+                  "timestamp": 1694460330896
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460310248
+                }
+              ]
+            }
+          },
+          "210": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "LoRQagygrATAOhGBmAskiaICUByBGOAWz0IAZscwB5AOwBs8A9JALRBwFMAZFmvASyQBDdgG0uATT4AjACwApKPIDs8gAakAggDYA0lF0AzeRIg4QsgMYN+ugOZmwSeQH0ucBgA4QAFRwALGFkAey47AGs8ZTg-QNJQoUjtOz87GF0MFkjZEABVHHksWjwOchxcyJhRMBw7PAATcpxCACs8GEMawzwXHAANALbSQhq64H6ceracCAB1HDbRJulp2fm+AfY1IdF54Lw9lGA2qjV5rBh8uhRRE-r53I7iPCpSUhe3j-eqL7wcGFeVBg-3+gPSUAAktoVBDlAAJTxQmHaf5IHBIAAKXEIGJwcCQNH2AFElFAuMDUDAUACqWi-jT8KCXsyfqyXsC8G82VzOaQfjzvnzOR9+Z98G8uQCxcLxX8ZVKgWClXzgQqOe9ZfhFSqlXKgSDVei0ChpLlgmoYEA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2505.3139648438,
+                  "y": 1306.6049804688,
+                  "timestamp": 1694460456785
+                },
+                {
+                  "x": 2548.8537597656,
+                  "y": 1269.0023193359,
+                  "timestamp": 1694460458881
+                },
+                {
+                  "x": 2610.2053222656,
+                  "y": 1280.8768310547,
+                  "timestamp": 1694460461233
+                },
+                {
+                  "x": 2524.115234375,
+                  "y": 1347.1761474609,
+                  "timestamp": 1694460462985
+                },
+                {
+                  "x": 2483.5439453125,
+                  "y": 1219.5252685547,
+                  "timestamp": 1694460466305
+                }
+              ],
+              "negative": [],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460456785
+                }
+              ]
+            }
+          },
+          "240": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "BoNQ+gigrAzAOgZQEwA4DiUAySCyMByuMehAtvgEoCMSA8gAz1W3Mj5j4CmE+ABlRAB2VADb5SPACpVOpKnFoAtCvgBG9YHJwBLFVQpyAbIJVpBIqgH4KCdrQBWFgOb0A6rZC0nFwfUW2Ae3wAYwsAVSoAPVsAC3YLSKoAQ1tefABdC2CqABNbAG18RQsYqicPfFcfKhjbHhALCiQAa1tmnAQLRSRSW2COizAkQVtInAoLHKQA2wBNHAAFC3skBcl8MMWLUlX1ha2qekiVdKRs3hwA5qoYJJU4JCSonEFrwxz7pHT5A4B2ADNPvkqIpLtcAFy6fAPYBUYAva4AHlIKnySBAVBACKoAD4Ap8EFQENikvQILZTsFhP1eDwHmBqTgcjxTrNGdoeJEkJJhKoXpykEIqHyICouaQ5EkcGEVLwkPY5GNZiokkgnHJ0jh8iopsE5PkcGAVP8kGA5PMPvgTXA5PDAfhtEhNJicM0VCtJHJJC8VDsFnIKONAj0LAFMCA6jAYj5MP5KDAqYcGEx6LRaLgkIR8MQ6FR8BAtQtKkhOAskAApTPMRjVpOMGvJ1OHeuMFgt1vNltt6tdzst+zl9oQWYbJBhCytujt6fpxsd+s99vduf1tsN1eHRfL9ez1dTpgMXcH1O5wgsM953Pn09X5iX5P3x8X7MACVU6VIQyAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2497.3974609375,
+                  "y": 1269.9919433594,
+                  "timestamp": 1694460535129
+                },
+                {
+                  "x": 2470.6799316406,
+                  "y": 1288.7932128906,
+                  "timestamp": 1694460538529
+                },
+                {
+                  "x": 2628.0170898438,
+                  "y": 1291.7618408203,
+                  "timestamp": 1694460540601
+                },
+                {
+                  "x": 2516.1987304688,
+                  "y": 1239.3161621094,
+                  "timestamp": 1694460541897
+                },
+                {
+                  "x": 2517.1884765625,
+                  "y": 1234.3684082031,
+                  "timestamp": 1694460544625
+                },
+                {
+                  "x": 2515.2092285156,
+                  "y": 1319.4689941406,
+                  "timestamp": 1694460548889
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2594.3725585938,
+                  "y": 1253.1696777344,
+                  "timestamp": 1694460546929
+                },
+                {
+                  "x": 2599.3203125,
+                  "y": 1305.6153564453,
+                  "timestamp": 1694460551041
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460535129
+                }
+              ]
+            }
+          },
+          "270": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "PYQwygKgrAXA5gJQEwgAwH0DyaCiMAyUAUgGwDSUFZALAHJICySmSAPAMJK3AM8AmCWgEUkAVQC2ARgAatAFaCAZpIAKUvrQB2ggNqSANvsnjaYMLQD8O7rQB6myXNSjzAZgCmW4Q4Cakl7QA4kKYcrRwUgAWkgjmADqYAEZS+qgAWoJgmADGUgiStoJhIFJ6AAaCILQAuuqSioKitD5SwJIAloLiDABqUgDqSAq0igwQUrZI4oJlDEJS2Ugq5mm8RnJL5hBrksBIsVr4mkYQrmby+ADWRj6uPeZ8+O1GZa4gkoyutOgMcSq0aUkiTanj4-z8Pjailo4n+-UkQjakVooiEtB6kkiDkutB0aLAkj4Dn03zREAKxNo7jJkh8lPaNIglPEaNEMWxWjR8OAUnawkEgP0UmhokEcUxUk8-UE1UkEUk2QBgnQhKkVR0gkSQIm30EfEk6FKtBAgjgBSkPloiUE7UkcSkPVoAloRjSUiaDRhtKkaMQwiQ0ikmgYnVoEDEKQYwx6EY6DH0gh8SHmmIY2gB+3UvEEk2ARkSc3M6CQx0kswOi0MdoYAXcQyMOl65kU9ZkTdolyQkSMogY0nMACEQu0kIos2lzABBOZdozVGEQWhlGKXA3CJoqzRyMsojeObdVHxNWWKbeJWhxJq2BUHpdXoHb9B3peSdzby3VJpmyLblZNHsOKgQGSJgQFgeBEFAZgkiQZB0HAaBsEgagyHIcBqCIehmEoRhkEwdhKGgah2GobhYFoQhWHkYhFGEZR8G0WhjHQTRLFMSxCEgZI9BsSwtBcXx3HMAJIk8SBXCMJQ1D4NJYCiKIcRIEAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2537.96875,
+                  "y": 1274.9395751953,
+                  "timestamp": 1694460597217
+                },
+                {
+                  "x": 2534.0104980469,
+                  "y": 1226.4520263672,
+                  "timestamp": 1694460603681
+                },
+                {
+                  "x": 2568.64453125,
+                  "y": 1247.232421875,
+                  "timestamp": 1694460617377
+                },
+                {
+                  "x": 2681.4523925781,
+                  "y": 1310.5631103516,
+                  "timestamp": 1694460619601
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2590.4145507812,
+                  "y": 1309.5736083984,
+                  "timestamp": 1694460622633
+                },
+                {
+                  "x": 2509.2719726562,
+                  "y": 1345.1970214844,
+                  "timestamp": 1694460624691
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460597217
+                }
+              ]
+            }
+          },
+          "300": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "Gocw9gSgrATAegZRgRgHIGYCyWYc7rHPGAGSgEkA2ALQHkBTABmUZm21TYBYT1P9UzRrQA2JALaoA1glQJkAOynIAQvVkA+YCOTkAlgEVUwWsGQHk4ncgAmRgKq04yABaMRO8YwAqsg7SkdCGRfVElA5DN7WRBpHQBxAEMjLxtkOgiACQAzIxFGAANkAE1aPR0AaSkjACtGAF0S2hcdEgAFCFQ9RmLkAHVaEB0fTrco2mydGGLOkEZg7wYdLgAdUcY25DbaGx0ADnrOurB3VF3kAE44TvzNl1REnQAeRM6vE5tUAp0NACNOzYrMBbBhtVDBYrAyR6MHeZD2YFSVAiMF9czAvSoAxGAAalgUyGyqHsRhWrgJn2KRmc9AJiVQ9SMRQKBIKDyMv2Q9QJ9TORno6QJ1FQICMLkiBJx0lqyAQBPsqDAeUU4hCck6BKkqqMwE6BhgIFVYEw1E6SBsqpEmEOxhgBVVNUw-1t9VVekw9E6OOmqpAmD0nWoMG8quymAUgZgBlV9EwBlkKxgHlsmGAsnqMBayF+JtkcBg5xz9VkBRgj2QAH1MAVZABjAsEggCXBsPgtzgd5C0dswWgITDeMHesDAuCYPpg34wEfwzA4sEuGDUNpsXtoLssdeMYQsHfb7u0WhCbd70+0Xf7ljn0+X2-CXtni9nh-Xvfr69bt+oXcH+9Hg9oC256cP+a7AWuIGAeB0GAR27ZoHw6AkAYfS1vmQA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2534.0104980469,
+                  "y": 1295.7199707031,
+                  "timestamp": 1694460712481
+                },
+                {
+                  "x": 2511.2512207031,
+                  "y": 1248.2220458984,
+                  "timestamp": 1694460715361
+                },
+                {
+                  "x": 2548.8537597656,
+                  "y": 1298.6885986328,
+                  "timestamp": 1694460717536
+                },
+                {
+                  "x": 2575.5712890625,
+                  "y": 1270.9814453125,
+                  "timestamp": 1694460719586
+                },
+                {
+                  "x": 2545.8850097656,
+                  "y": 1354.1029052734,
+                  "timestamp": 1694460721242
+                },
+                {
+                  "x": 2645.8288574219,
+                  "y": 1297.6990966797,
+                  "timestamp": 1694460722538
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2502.3452148438,
+                  "y": 1326.3957519531,
+                  "timestamp": 1694460723970
+                },
+                {
+                  "x": 2568.64453125,
+                  "y": 1343.2180175781,
+                  "timestamp": 1694460725562
+                },
+                {
+                  "x": 2561.7177734375,
+                  "y": 1351.1342773438,
+                  "timestamp": 1694460727938
+                },
+                {
+                  "x": 2500.3662109375,
+                  "y": 1298.6885986328,
+                  "timestamp": 1694460729986
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460712481
+                }
+              ]
+            }
+          },
+          "330": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "CoYwWgSgrAjAegZQEwGYCySByWfbQFg22NxzRTwqXJqvIAZ78AZdRmAeRmw-Z-q71uAQzQBFDnAiYA9vQD6AWxgBNDgF1pAM3pxlAIXnSAvOuUBJAEbSAbCuUwA5tObBlAbgA20gMIzPMACm9GIImAAaHABWAXIAamEymI4BAOqqYVqYACYB8jAAOmHymJYBWjDqYeGlAQDWMPJh0gAGAWJILWGKaG0wAKpIwmEAFmhwAQDaSJZhIGjqAS1IIGFwCwGBK9UbMFHbmAjjsUgACqhEuOhIcTB1mKyUtHgs6FQ83Ei8QlyYMIw-Ri8f5AoSgkHff4cDgACQAnPIOMJ6PoAHzUN4kcjEfAAaQA7AApGzE4nmQhkOhYFCPa6-OncCiMv4cDF-TDvZnMtmcLDcrF0dCvAjMCYjZZAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2533.0209960938,
+                  "y": 1271.9709472656,
+                  "timestamp": 1694460843793
+                },
+                {
+                  "x": 2513.2302246094,
+                  "y": 1221.5043945312,
+                  "timestamp": 1694460846129
+                },
+                {
+                  "x": 2610.2053222656,
+                  "y": 1239.3161621094,
+                  "timestamp": 1694460851793
+                },
+                {
+                  "x": 2541.9270019531,
+                  "y": 1336.2911376953,
+                  "timestamp": 1694460852939
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2560.7282714844,
+                  "y": 1323.4271240234,
+                  "timestamp": 1694460855553
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460843793
+                }
+              ]
+            }
+          },
+          "360": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "Eoew+iAsDcAKDKAmAnASQOwGkDMBZPeiA8gIwByiFRiux5dV5JADCaWS2896xz06yLNSXFqXGVJHInkgAZbHMj5cbSmw2N2k7RTKKAhgA0AbKgDGAcwyZI+hXqlOK+e9hcEV8gnICsCpSV8IIIXSnd6R21o+nEuHn4haiphOiFBDTjktQ4AHTIASxBcMgBNWGIAK2KiAHUKsgAbYpIANQq5AFtixAAVDoA7Yux+xAApEGLIeAqACQBFWDITWDngJYAOIZIAMQBVTe6SAFEDsgAuZpIAEXqLgGsQEgAhIyWAXiKSAEEALSWAHyWJ5gIgAbSWAANmAAzJ4APSIAF0ocwAKZPXJEeFLABG6KeYOxS3MzHMhKIkJJzFxFLA1NK83U2RZNHCKjBnSM5kQQA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2517.1884765625,
+                  "y": 1387.7473144531,
+                  "timestamp": 1694460897129
+                },
+                {
+                  "x": 2567.6550292969,
+                  "y": 1372.904296875,
+                  "timestamp": 1694460899561
+                },
+                {
+                  "x": 2519.1674804688,
+                  "y": 1425.3499755859,
+                  "timestamp": 1694460901177
+                },
+                {
+                  "x": 2422.1923828125,
+                  "y": 1421.3917236328,
+                  "timestamp": 1694460911761
+                },
+                {
+                  "x": 2449.8996582031,
+                  "y": 1466.9106445312,
+                  "timestamp": 1694460913040
+                },
+                {
+                  "x": 2462.763671875,
+                  "y": 1475.8165283203,
+                  "timestamp": 1694460914889
+                },
+                {
+                  "x": 2640.8811035156,
+                  "y": 1394.6741943359,
+                  "timestamp": 1694460949593
+                },
+                {
+                  "x": 2652.7556152344,
+                  "y": 1361.0297851562,
+                  "timestamp": 1694460950889
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2531.0419921875,
+                  "y": 1423.3708496094,
+                  "timestamp": 1694460904073
+                },
+                {
+                  "x": 2477.6066894531,
+                  "y": 1465.9211425781,
+                  "timestamp": 1694460905377
+                },
+                {
+                  "x": 2424.1713867188,
+                  "y": 1445.1407470703,
+                  "timestamp": 1694460906525
+                },
+                {
+                  "x": 2424.1713867188,
+                  "y": 1439.2034912109,
+                  "timestamp": 1694460909281
+                },
+                {
+                  "x": 2472.6589355469,
+                  "y": 1465.9211425781,
+                  "timestamp": 1694460919537
+                },
+                {
+                  "x": 2575.5712890625,
+                  "y": 1374.8833007812,
+                  "timestamp": 1694460948001
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694460897129
+                }
+              ]
+            }
+          },
+          "390": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "JoEwpg1gLAzMDKAmAhgBgIIE4ASB2AUlANIBsRArPuQDJTUwCyM9AcoiwIwDyqq3vHTr2HD+I8RMmieotl27s65InVW0VDdlrZNOLGDsRdEDKAwB2AbQioiANRAAVLswOMTRrT2Pf2HXj6CCvJsoUaC2iYGWrqCrrrupvRM1DSMZtru+npZWXZcAAYACiwAFgwAegD2HMAcICUA+iwAHABcAIo1NvAASiwAqlwQALYcADaoA-35pWMAVqjA-QDqXABmY6WoADr9wIVjAJaoBf0AGlwAuseoYKtcK2OTRzNc8GM2Vf1D5uMcI1Q8HgLHgw3+gJWIOcAHN-pMEIMuHCOIsAFog-Lrf7rVAVEForjIHGoRognaFf4AI1QVJBFS4FX+BVQIBBAAEdv8APxslgAIS5HAAPOsQQARYD-YWlEEAURW-0w8xB2Ds-1wEBBAEl1RwoOMQdQBv8JiCpv8WIa2I5-tRzCCoLaONrrS0TRwAGLWtoeuValgAbj14qOIIAvOd-uyVSwWYqOAzYzSExSwywwKgoxxLumTlKOLCQYDLP8ihsQUUOFd4SwAMYggYcAr-ED1kFXDgrGr+VDyGS9gfyPt8ft8AIKTjyGEsSzmBggVClDqIA5HeckPbnMCIIA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2384.58984375,
+                  "y": 1453.0571289062,
+                  "timestamp": 1694461007162
+                },
+                {
+                  "x": 2474.6381835938,
+                  "y": 1440.1931152344,
+                  "timestamp": 1694461009434
+                },
+                {
+                  "x": 2501.3557128906,
+                  "y": 1317.4898681641,
+                  "timestamp": 1694461012274
+                },
+                {
+                  "x": 2566.6655273438,
+                  "y": 1363.9984130859,
+                  "timestamp": 1694461019866
+                },
+                {
+                  "x": 2542.9165039062,
+                  "y": 1469.8792724609,
+                  "timestamp": 1694461025880
+                },
+                {
+                  "x": 2425.1611328125,
+                  "y": 1481.7537841797,
+                  "timestamp": 1694461029954
+                },
+                {
+                  "x": 2429.119140625,
+                  "y": 1488.6805419922,
+                  "timestamp": 1694461032409
+                },
+                {
+                  "x": 2425.1611328125,
+                  "y": 1483.7329101562,
+                  "timestamp": 1694461038818
+                },
+                {
+                  "x": 2378.6525878906,
+                  "y": 1498.5760498047,
+                  "timestamp": 1694461053145
+                },
+                {
+                  "x": 2430.1086425781,
+                  "y": 1486.7015380859,
+                  "timestamp": 1694461054546
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2515.2092285156,
+                  "y": 1376.8624267578,
+                  "timestamp": 1694461013898
+                },
+                {
+                  "x": 2508.2824707031,
+                  "y": 1389.7264404297,
+                  "timestamp": 1694461016386
+                },
+                {
+                  "x": 2544.8955078125,
+                  "y": 1423.3708496094,
+                  "timestamp": 1694461023250
+                },
+                {
+                  "x": 2522.1359863281,
+                  "y": 1383.7891845703,
+                  "timestamp": 1694461024746
+                },
+                {
+                  "x": 2410.3178710938,
+                  "y": 1451.0780029297,
+                  "timestamp": 1694461034819
+                },
+                {
+                  "x": 2409.3283691406,
+                  "y": 1451.0780029297,
+                  "timestamp": 1694461037058
+                },
+                {
+                  "x": 2420.2133789062,
+                  "y": 1475.8165283203,
+                  "timestamp": 1694461057042
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694461007162
+                }
+              ]
+            }
+          },
+          "420": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "IYIwCg1gLA7AagZQEwFYDSKAyWoFkkByAzJnlKWkcbgIwDyhNxB9jdTS7XTNADPb0GC+dfty6E2kgtMYzxSfOPor5rFuzWbOKzXwFiOXABwAJOACsABrzoWAqgH06JKorctie-hqRxMABp0AJYAKgTBvAEQNABadAAm4QDmvADaMQC6dFbhCbxWMQACaeEgvACmMaYA9ggEAJwAigA2NA1p9QBSFW3AvAB2AEoERUMAtjQAZrzJI2l0sZMQvJkjQSCTA7wA6iMIIZMINGAjAwRNAzQ7NBVNBOMEaVexNAH3LRFXA5wBuDv3SLBK5NOjAe4rKxXGoRe7jXZXR5DEZNGgDSYACwIAB0RqEaAlJskCBURnAaGlJgBjAg1EYATRoTUmwAI9PqaRoyTajgIVPqAD0aJk2tiHvVHNcajQMGhBAxREJbJwlcJROwhAINWrbHwddrNaIDEqBKbFSbbKrDbrrVb5XqGCx7eJ+Da3Qa3UIPfa7TaDKodNwtLo5FR6K5iJgAGxoKMASSjXXQKDjVgCAxASCAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2497.3974609375,
+                  "y": 1458.0047607422,
+                  "timestamp": 1694461120754
+                },
+                {
+                  "x": 2576.5607910156,
+                  "y": 1481.7537841797,
+                  "timestamp": 1694461139922
+                },
+                {
+                  "x": 2432.087890625,
+                  "y": 1461.9630126953,
+                  "timestamp": 1694461142617
+                },
+                {
+                  "x": 2428.1296386719,
+                  "y": 1461.9630126953,
+                  "timestamp": 1694461144769
+                },
+                {
+                  "x": 2427.1401367188,
+                  "y": 1460.9733886719,
+                  "timestamp": 1694461146873
+                },
+                {
+                  "x": 2553.8015136719,
+                  "y": 1425.3499755859,
+                  "timestamp": 1694461152313
+                },
+                {
+                  "x": 2430.1086425781,
+                  "y": 1516.3878173828,
+                  "timestamp": 1694461158993
+                },
+                {
+                  "x": 2354.9035644531,
+                  "y": 1467.9002685547,
+                  "timestamp": 1694461164080
+                },
+                {
+                  "x": 2379.6420898438,
+                  "y": 1527.2727050781,
+                  "timestamp": 1694461172305
+                },
+                {
+                  "x": 2428.1296386719,
+                  "y": 1516.3878173828,
+                  "timestamp": 1694461175905
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2489.4812011719,
+                  "y": 1432.2767333984,
+                  "timestamp": 1694461147989
+                },
+                {
+                  "x": 2535.0002441406,
+                  "y": 1431.2872314453,
+                  "timestamp": 1694461149130
+                },
+                {
+                  "x": 2535.0002441406,
+                  "y": 1434.255859375,
+                  "timestamp": 1694461150433
+                },
+                {
+                  "x": 2516.1987304688,
+                  "y": 1442.1721191406,
+                  "timestamp": 1694461154553
+                },
+                {
+                  "x": 2364.7990722656,
+                  "y": 1506.4923095703,
+                  "timestamp": 1694461165441
+                },
+                {
+                  "x": 2395.4748535156,
+                  "y": 1481.7537841797,
+                  "timestamp": 1694461167833
+                },
+                {
+                  "x": 2391.5166015625,
+                  "y": 1465.9211425781,
+                  "timestamp": 1694461169425
+                },
+                {
+                  "x": 2422.1923828125,
+                  "y": 1520.3459472656,
+                  "timestamp": 1694461181257
+                },
+                {
+                  "x": 2405.3701171875,
+                  "y": 1490.6596679688,
+                  "timestamp": 1694461182705
+                },
+                {
+                  "x": 2447.9204101562,
+                  "y": 1445.1407470703,
+                  "timestamp": 1694461184505
+                },
+                {
+                  "x": 2453.8576660156,
+                  "y": 1441.1826171875,
+                  "timestamp": 1694461187209
+                },
+                {
+                  "x": 2549.8432617188,
+                  "y": 1493.6282958984,
+                  "timestamp": 1694461188657
+                },
+                {
+                  "x": 2550.8327636719,
+                  "y": 1486.7015380859,
+                  "timestamp": 1694461190345
+                },
+                {
+                  "x": 2503.3347167969,
+                  "y": 1438.2139892578,
+                  "timestamp": 1694461198297
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694461120754
+                }
+              ]
+            }
+          },
+          "450": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "EoHQNgVgLAbAGgZQEwGYCyUAySByKcCMA8rgQAxlHlkDWAtmiEQLoCKSApmQCYB2aAAQBq7AAZkI-AFI0ACkgDsAVQD2aKRHkwA6moDSAMy0AtNZm7yozNTlHyCAQzVIQ8nB2cBNeUQDmasmMffzRA+TIQojh5JAALNTRvJCQASzNopCh4tEwMqDT1bS0INQBJIsUC8vkFErQAcQqATgL6oXkALjqAMXakDpo1ABE+gB5BtAAhPoA+OoBBPvE6gH0iCocJNWZ1+QBjMgKmDO5DtQBtIj6DLcTdpF8ztDgo+Vin7Sv5CFule5oyEICNQKFRQdQwZQIdDwRRYZQkEQoXCEYR4SQkZCMciCGjUeRccQCYQqCQSUTScRSJTKThERSiXSqGiGUiyBSEWy4djKaDEdyCUjiOzOTimRRCezmYLJZKxSDkaKhVCwUK2cKNWqJZQReq+XiedT6XgcFApDApABWTAoTAWjrdYCsIQcJBAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2447.9204101562,
+                  "y": 1478.78515625,
+                  "timestamp": 1694461228330
+                },
+                {
+                  "x": 2534.0104980469,
+                  "y": 1393.6845703125,
+                  "timestamp": 1694461238418
+                },
+                {
+                  "x": 2484.5334472656,
+                  "y": 1392.6950683594,
+                  "timestamp": 1694461243514
+                },
+                {
+                  "x": 2485.5229492188,
+                  "y": 1391.7055664062,
+                  "timestamp": 1694461245610
+                },
+                {
+                  "x": 2350.9453125,
+                  "y": 1480.7642822266,
+                  "timestamp": 1694461253930
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2377.6630859375,
+                  "y": 1472.8479003906,
+                  "timestamp": 1694461231234
+                },
+                {
+                  "x": 2540.9372558594,
+                  "y": 1408.5277099609,
+                  "timestamp": 1694461236802
+                },
+                {
+                  "x": 2505.3139648438,
+                  "y": 1401.6009521484,
+                  "timestamp": 1694461239589
+                },
+                {
+                  "x": 2499.3767089844,
+                  "y": 1405.5590820312,
+                  "timestamp": 1694461241738
+                },
+                {
+                  "x": 2499.3767089844,
+                  "y": 1401.6009521484,
+                  "timestamp": 1694461246765
+                },
+                {
+                  "x": 2465.7321777344,
+                  "y": 1416.4440917969,
+                  "timestamp": 1694461248994
+                },
+                {
+                  "x": 2471.6694335938,
+                  "y": 1500.5550537109,
+                  "timestamp": 1694461251185
+                },
+                {
+                  "x": 2349.9558105469,
+                  "y": 1494.6177978516,
+                  "timestamp": 1694461256274
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694461228330
+                }
+              ]
+            }
+          },
+          "480": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "KoTQ1gtgLAzAagZQEwDYByMCMbMAYAWOACgPYCyZERSAXKWQGJVID8AiuQAIB21AxrgBK5ADoB5ADbUA5rgTkQk6gEtcAFXLAlSCevJqxYahFxxybMQCtqRTGbJEr1ErjC48Y3O8+YfP3H7uAV4eQcGhYWKhvjHhUfF4ATEJKcmJqWJInilIOKnueWmZ2UW56b5IZFmJaNUYOGgiZCLkAAZIfNStZAB6bUg9-GR85AC6SADq1PhkluQAGkhgJJgIaHBEaBKYyitqaPOb2-grayCbEJjSK4JoAFqb3JgApjeNj5gAJitsaKOb1AARityAB9TZsJCtEFkACGAKhMPhaEhoJW3DIgM2giQo3RZE+2KQLUwEDIz02yAA2isJGQAGabNRIEC0sj4SkstnSTbALmYSzszZwSYrQXWdZIMw7MhGSXAMVkKSSjQyqhoCZIeSYGbqkBIYRXMgkTaLQ3SBy-RYkJ4zQRWpDcJ4WhAOiC2shqB0SZ1kYC-fWWX3zX6a5QekMHJD4X0gANIem+qnx55PenNeOfX09B2A32g+OtX2w+OgtOY+M9X18eOjcs1tBU3FPT7DX4iZtfNt-JDXTDYLIhDIhWqebzJLwWvFkaSYeFIO5oaEMzDghdoYHkzCDJBUtAjLciaiL+nkZ6YB67tDXLeHddzFfAaggNAQciztjPlGbemYEgrF8EE2WcJBWeZ1k2fAdhWCY0HONAoL7WCqU2ZQvhWOA0HBNA0OhOwN1QzA8UwWCKRwzASX2Hk0DACiVk2MjqH+JAihCLwRzwXx2IKTix2wXiOO8djMh6e4MXmTB6UhaRGnEl5IXpNAqzICTAWktBYQxOA50hQg8zIbTuEhWoyCgAAZGATPM8yYFMgBpEQ2EBWEkCAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2524.115234375,
+                  "y": 1403.580078125,
+                  "timestamp": 1694461283002
+                },
+                {
+                  "x": 2411.3073730469,
+                  "y": 1427.3289794922,
+                  "timestamp": 1694461284722
+                },
+                {
+                  "x": 2580.5190429688,
+                  "y": 1401.6009521484,
+                  "timestamp": 1694461285858
+                },
+                {
+                  "x": 2400.4223632812,
+                  "y": 1451.0780029297,
+                  "timestamp": 1694461290547
+                },
+                {
+                  "x": 2402.4016113281,
+                  "y": 1418.4230957031,
+                  "timestamp": 1694461292738
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2563.6967773438,
+                  "y": 1420.4022216797,
+                  "timestamp": 1694461287026
+                },
+                {
+                  "x": 2544.8955078125,
+                  "y": 1426.3394775391,
+                  "timestamp": 1694461289299
+                },
+                {
+                  "x": 2396.4643554688,
+                  "y": 1434.255859375,
+                  "timestamp": 1694461293858
+                },
+                {
+                  "x": 2397.4538574219,
+                  "y": 1432.2767333984,
+                  "timestamp": 1694461295843
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694461283002
+                }
+              ]
+            }
+          },
+          "510": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "JoEwBgtgLAnASgZQEwB4BiA2AUhgMgVgGkB2ASQGMAGAPQHkkBZJep2gRgDlmBLDgRQD2DDgDsACowAaQpAHMJHANoyQEhtSEBmAIYTc2rdTXktAXQmEAZkKgAtPbK2S1AKxkA1NQBshbAKoStD4MlAAqgRBClAgSlCJRcLECQhyJSGzJDLRiEkg5HAx8ufkcOemJBfFsUBW4VTViHFhlGPlYyWzEFQDiHQAcPR0wRRxoHQDc4RwAgpFsAPwBHKa0c1SeHMC0bmwAFpQA+mxstJT07KfslNdnbDe311c3T+cPb1ecJ3e3HJocX1wGJoUAARSife6vcGXZjXCEnM6wj7-R53CG3ej-F5ILHfU7Q+Ew-FsSS0bgMCqKJBzRpuBgCNjhOTPPHfe73BEIm53YmPa5Ir7g3EXHGaVicTS2DgAdSEYEoAGsJHRgEIAHwuCQHWi2IQAXiVSBVQnm3GVtGUDDV8iQAAEADr6ywSaa6hjzXZa2iqhjys1G2iyhgAI0VEhWfiEVC8EmltGkDG4lF2fFh3LO0LhxOzWazXPhWIF3T4EAYbD4yFwJbLiEYYlLhxAcHISCAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2504.32421875,
+                  "y": 1340.2493896484,
+                  "timestamp": 1694461338244
+                },
+                {
+                  "x": 2530.0524902344,
+                  "y": 1262.0755615234,
+                  "timestamp": 1694461340596
+                },
+                {
+                  "x": 2527.0837402344,
+                  "y": 1258.1174316406,
+                  "timestamp": 1694461342988
+                },
+                {
+                  "x": 2391.5166015625,
+                  "y": 1356.08203125,
+                  "timestamp": 1694461350523
+                },
+                {
+                  "x": 2430.1086425781,
+                  "y": 1404.5695800781,
+                  "timestamp": 1694461353468
+                },
+                {
+                  "x": 2426.1506347656,
+                  "y": 1412.4858398438,
+                  "timestamp": 1694461370148
+                },
+                {
+                  "x": 2433.0773925781,
+                  "y": 1409.5173339844,
+                  "timestamp": 1694461372036
+                },
+                {
+                  "x": 2405.3701171875,
+                  "y": 1428.3186035156,
+                  "timestamp": 1694461373190
+                },
+                {
+                  "x": 2403.3911132812,
+                  "y": 1427.3289794922,
+                  "timestamp": 1694461374756
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2550.8327636719,
+                  "y": 1344.2075195312,
+                  "timestamp": 1694461344140
+                },
+                {
+                  "x": 2520.1569824219,
+                  "y": 1368.9460449219,
+                  "timestamp": 1694461345740
+                },
+                {
+                  "x": 2510.2614746094,
+                  "y": 1273.9500732422,
+                  "timestamp": 1694461346894
+                },
+                {
+                  "x": 2551.822265625,
+                  "y": 1268.0128173828,
+                  "timestamp": 1694461348024
+                },
+                {
+                  "x": 2387.5583496094,
+                  "y": 1407.5382080078,
+                  "timestamp": 1694461349228
+                },
+                {
+                  "x": 2420.2133789062,
+                  "y": 1398.6323242188,
+                  "timestamp": 1694461355172
+                },
+                {
+                  "x": 2426.1506347656,
+                  "y": 1393.6845703125,
+                  "timestamp": 1694461356708
+                },
+                {
+                  "x": 2413.2866210938,
+                  "y": 1389.7264404297,
+                  "timestamp": 1694461358140
+                },
+                {
+                  "x": 2407.3493652344,
+                  "y": 1389.7264404297,
+                  "timestamp": 1694461360212
+                },
+                {
+                  "x": 2395.4748535156,
+                  "y": 1417.43359375,
+                  "timestamp": 1694461362284
+                },
+                {
+                  "x": 2398.443359375,
+                  "y": 1415.4544677734,
+                  "timestamp": 1694461375894
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694461338244
+                }
+              ]
+            }
+          },
+          "540": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "LoPQigSgrAZgDMCAmARnAEgNgNIBYAyAzAHJLECMA8kpXNbXI1Yy+XS6w3G180+9wY9B-Wn2Hj24oWIF9ucgSObzhHUetViundZTbz9Io0wqaGKYgAMAdgFkANnAD6YJGEox7AezgANNxtiAFt7MHIIQOIABW87AGVyB2ikAEtiAHN7cgBeADVyDJTgkPs7HIBVcmcUgBVKPLiAYQA+AC1yWpSATUpnOIAdSgB+DpRvcgBJAFNo4gB2AGsbcgAOPLBiSazyTGBNgClnFfmAY03JtpXVgAsL2pPoiGJ0YODyAE4K5-QM96hnM9sCB3iFnkhvA5yOg2vFiKtTlCACIAEzhOT8UIAgjY4S1vItyAABPK1YgAQzg00Jzj6ZMpbUJWIcZOG3gAVuQAEIVCrEHLszlc7p8lrTTlY5x8nJWIUovkAHgA2pymjdpRUhdE8sQFWAJRAdfjUtVKBUdcNgibgA0dWgHCa2rbMnBFiaKpQAOo6xZwdkmiCUbo64JwVIm7zEYPEcLxFZaXRMHRJ9SJjjyczp-TZwxsVN6PMcSjpXoZOIZODdHqUMt2eAoNw50jNsitlukJswWXAJBAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2496.4079589844,
+                  "y": 639.65399169922,
+                  "timestamp": 1694461467037
+                },
+                {
+                  "x": 2662.6508789062,
+                  "y": 635.69586181641,
+                  "timestamp": 1694461472885
+                },
+                {
+                  "x": 2459.794921875,
+                  "y": 652.51806640625,
+                  "timestamp": 1694461474062
+                },
+                {
+                  "x": 2463.7531738281,
+                  "y": 597.10369873047,
+                  "timestamp": 1694461475221
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2664.6301269531,
+                  "y": 769.28393554688,
+                  "timestamp": 1694461470389
+                },
+                {
+                  "x": 2600.3098144531,
+                  "y": 626.78997802734,
+                  "timestamp": 1694461476485
+                },
+                {
+                  "x": 2641.8706054688,
+                  "y": 629.75860595703,
+                  "timestamp": 1694461478349
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694461467037
+                }
+              ]
+            }
+          },
+          "570": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "JoGw9gqgrAXAKgZQEwE4DiAWAsgZl1pXAOSRKIEYicKAGcgeRvqUbsefoZrtu6-Kbc+jfqzqDh41gKYCRnEbMUKp-CWund5bKXwk7ROvWOYUFDQiwBWRADoA7LACMaAYwCKSAFr0njgOY0tp4+ACaOAGY0ANoh9BGRNMCe0fQAFo6hNABqngB69FaOrjROAApINHlgWDQAtmDkAKY0CGVEqVaNgQDq7T5NjQCWQe3Z9ACGjXU0APrtCPTV5GXk5UTu9F6NAErkEe32RD2NCOQA1ocbjXDk7u5E50R19uTZ5HAPNkXkPb9fRASv3IsSIQyI4WBAF0AQADV5-JwPNJ2V7AZrIogADTR5CGmLguLqD38G1eXhWOyIpPsdXIWPIECppKGdKiICpqXOIHIaRoXgQ2KWPPONDSgog9GyPJGdUFPXoOx5gR2cCIwHoIHOzRoPTVqTS2thczVAAFZtqAGwgNUAKQQ2oK-ggRBcsys5B29GdRHsNChr10ciDymMbA0ki4wgYMekJHM0gTMjERkkYaEkc4Whj2fouAAkgAOMwWADStlsTS8SCAA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2557.7595214844,
+                  "y": 510.02404785156,
+                  "timestamp": 1694461532326
+                },
+                {
+                  "x": 2531.0419921875,
+                  "y": 471.43194580078,
+                  "timestamp": 1694461534526
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2520.1569824219,
+                  "y": 492.21231079102,
+                  "timestamp": 1694461535958
+                },
+                {
+                  "x": 2559.7387695312,
+                  "y": 477.36917114258,
+                  "timestamp": 1694461537118
+                },
+                {
+                  "x": 2536.9792480469,
+                  "y": 518.92993164062,
+                  "timestamp": 1694461538350
+                },
+                {
+                  "x": 2595.3620605469,
+                  "y": 492.21231079102,
+                  "timestamp": 1694461539581
+                },
+                {
+                  "x": 2605.2575683594,
+                  "y": 497.16000366211,
+                  "timestamp": 1694461541046
+                },
+                {
+                  "x": 2660.671875,
+                  "y": 503.09725952148,
+                  "timestamp": 1694461542357
+                },
+                {
+                  "x": 2637.9123535156,
+                  "y": 561.48022460938,
+                  "timestamp": 1694461543480
+                },
+                {
+                  "x": 2707.1804199219,
+                  "y": 512.99267578125,
+                  "timestamp": 1694461546197
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694461532326
+                }
+              ]
+            }
+          },
+          "600": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "CoBQOgigrAlgDAYwEoCYD8BhAvAEQOwBSAbAQFwBiAnABJQEAcAkgCwAyKAcgIzdw9dxBAeT78hnCR05dx3WTIDMAWWUKA2hwBaAeyWkAFiBQAhHUoB8AayNghAdV0I4AOyMA1IcF0ArONqMQQgDKutp+RtocSLogXP4ozlG6SHFGADZJSsCpKN6ZblwAphAoIoJ8ZYIyVUIy0rL11eXCAs3N-G1ttZ3N3T0t-QM9ff0jw62jE+ODcCJTfXNwUlIq1AB6AKqWAEYoQA",
+            "intSegClicks": {
+              "positive": [
+                {
+                  "x": 2508.7770996094,
+                  "y": 355.6555480957,
+                  "timestamp": 1694461630639
+                },
+                {
+                  "x": 2452.966796875,
+                  "y": 260.65954589844,
+                  "timestamp": 1694461632863
+                },
+                {
+                  "x": 2461.2790527344,
+                  "y": 254.72230529785,
+                  "timestamp": 1694461635182
+                }
+              ],
+              "negative": [
+                {
+                  "x": 2488.5903320312,
+                  "y": 311.71990966797,
+                  "timestamp": 1694461636326
+                }
+              ],
+              "upperLeft": [],
+              "bottomRight": [],
+              "unlabeled": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "timestamp": 1694461630639
+                }
+              ]
+            }
+          },
+          "630": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "KoYw+gagbAHBDKAmABgBgIIwOIGYCyiA8gIyFGqokUVW3HXVUOGr1NkslXEBy9l5QmQDSAFjyiAMjkkBWaROFQxS4QCMAOiBDEgA",
+            "intSegClicks": []
+          },
+          "660": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "OYMw9gSgbA7AGgZQEwAMAMB9A8gTgCICsAskmgIxYXlo1U3la1qMVkDWAcsALZECKZADoRSdMY2otKE8bQkN6iuopXKV5DmQ5JtRAMzbDOikn2asOgBYA7EAFMyQA",
+            "intSegClicks": []
+          },
+          "690": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "GoEwygFgrAHAGmATAfgIIwBIAYc4GLADyAdgLYCyAVlgNYCKiAAgErHkAGWlDAploQEZBgnMKEChAZnKIActLnSAhlgD6hLENzaduLboPbxYzbOP7N-QzgFXDFgw6MbD8lzgBsAKXZ0AugD2AkA",
+            "intSegClicks": []
+          },
+          "720": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "GYGwqgig7AnApgJQEwEMAMAJGaDyBGfNPAOTzVzJILNyRwvJyVMZvpofK9yO+8MJcSAFgCyzZgGZxosQBUA9gCsAFmiA",
+            "intSegClicks": []
+          },
+          "810": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "KYWw+gJg7ATAegZRgFgDJpgOQAy4IwDyuxxAVgNYA2UQA",
+            "intSegClicks": []
+          },
+          "750": {
+            "width": 3840,
+            "height": 2160,
+            "encodedMask": "FYcwtgqg7AjAegZQExILJIPIwHIGZs74wAMMauq+CAlgHwAyANgGoCCUAUgGwDSArPWLF6vKAAkA+gE0AugFNiQA",
+            "intSegClicks": []
+          }
+        },
+        "annotation_metadata": {
+          "annotation_uid": "50e26919-9878-4637-abf6-e2b64f73bbce",
+          "annotator_id": "5165530610133684",
+          "response_time": 1694462064,
+          "job_id": "287664504003001",
+          "response_id": "4948807215242853"
+        },
+        "annotation_fps": 1,
+        "annotated_frames": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210,
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          420,
+          450,
+          480,
+          510,
+          540,
+          570,
+          600,
+          630,
+          660,
+          690,
+          720,
+          750,
+          780,
+          810,
+          840,
+          870,
+          900,
+          930,
+          960,
+          990,
+          1020,
+          1050,
+          1080,
+          1110,
+          1140,
+          1170,
+          1200,
+          1230,
+          1260,
+          1290,
+          1320,
+          1350,
+          1380,
+          1410,
+          1440,
+          1470,
+          1500,
+          1530,
+          1560,
+          1590,
+          1620,
+          1650,
+          1680,
+          1710,
+          1740,
+          1770,
+          1800
+        ]
+      }
+    }
+  }
+}
