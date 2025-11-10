@@ -5,8 +5,11 @@ SegSwap_way/
 # data
 ego4d_data/
 outdir/
-output_dir_cooking/
-output_dir_health/
+output_dir_cooking/downscaled_takes/
+output_dir_cooking/normal_takes/
+output_dir_health/downscaled_takes/
+output_dir_health/normal_takes/
+out/
 annotations/
 
 # Byte-compiled / optimized / DLL files

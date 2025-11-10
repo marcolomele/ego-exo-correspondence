@@ -150,8 +150,8 @@ def download_take(uid: str, output_dir: str) -> bool:
         "egoexo",
         "-o", output_dir,
         "--parts", 
-        "downscaled_takes/448",
-        # "takes",
+        # "downscaled_takes/448",
+        "takes",
         "--yes",
         "--uids", uid
     ]
@@ -253,7 +253,7 @@ def process_take(
         return False
     
     # Find downloaded videos
-    takes_dir = output_dir / "takes" / take_name / "frame_aligned_videos" / "downscaled" / "448"
+    takes_dir = output_dir / "takes" / take_name / "frame_aligned_videos" # / "downscaled" / "448"
     
     if not takes_dir.exists():
         print(f"Error: Downloaded videos not found at {takes_dir}")

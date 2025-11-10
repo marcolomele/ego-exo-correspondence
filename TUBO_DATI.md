@@ -101,6 +101,32 @@ output_dir_{scenario}/
 }
 ```
 
+### Field Distinction: `object_masks` vs `masks`
+
+The `annotation.json` contains two mask representations serving different purposes:
+
+**`object_masks`** - Original annotation data (preserved from EgoExo4D):
+- Contains **LZString-compressed** masks (`encodedMask` field)
+- Includes full annotation metadata:
+  - `width` and `height`: Original frame dimensions
+  - `intSegClicks`: Interactive segmentation click points used during annotation
+  - `annotated_frames`: List of frame indices with annotations
+- **Purpose**: Maintains complete annotation provenance and metadata
+- **Not used during training** (too slow to decode)
+
+**`masks`** - Processed masks for efficient training:
+- Contains **COCO RLE format** masks (`size` and `counts` fields)
+- Decoded from LZString during preprocessing (Stage 1)
+- Minimal structure: just the mask data needed for training
+- **Purpose**: Fast runtime loading with `pycocotools.mask.decode()`
+- **Used by dataloader** during training/evaluation
+
+**Why keep both?**
+1. **Reproducibility**: `object_masks` preserves original annotations
+2. **Efficiency**: `masks` enables fast training without repeated decoding
+3. **Debugging**: Original metadata available if issues arise
+4. **Storage overhead**: Minimal (~10-20% increase) due to RLE compression
+
 ---
 
 ## Stage 2: `create_pairs.py`
