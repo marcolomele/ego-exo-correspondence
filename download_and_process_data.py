@@ -150,7 +150,7 @@ def download_take(uid: str, output_dir: str) -> bool:
         "egoexo",
         "-o", output_dir,
         "--parts", 
-        # "downscaled_takes/448",
+        #"downscaled_takes/448",
         "takes",
         "--yes",
         "--uids", uid
@@ -258,7 +258,7 @@ def process_take(
     if not takes_dir.exists():
         print(f"Error: Downloaded videos not found at {takes_dir}")
         # Try alternative path without frame_aligned_videos
-        takes_dir = output_dir / "takes" / take_name / "downscaled" / "448"
+        takes_dir = output_dir / "takes" / take_name #/ "downscaled" / "448"
         if not takes_dir.exists():
             print(f"Videos not found at expected locations")
             return False
