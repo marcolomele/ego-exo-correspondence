@@ -6,11 +6,20 @@ Extracts object masks using FastSAM's Everything Mode from frames referenced in 
 import os
 import sys
 import json
+import warnings
 import numpy as np
 import cv2
 from pathlib import Path
 from tqdm import tqdm
 import torch
+
+# Suppress common warnings (but keep errors visible)
+warnings.filterwarnings('ignore', category=UserWarning)
+warnings.filterwarnings('ignore', category=FutureWarning)
+warnings.filterwarnings('ignore', category=RuntimeWarning)
+# Suppress NumPy compatibility warnings
+warnings.filterwarnings('ignore', message='.*NumPy.*')
+os.environ['NUMPY_EXPERIMENTAL_DTYPE_API'] = '1'  # Suppress NumPy 2.x warnings
 
 # Add FastSAM to path (import deferred to avoid loading in dry-run mode)
 fastsam_path = os.path.join(os.path.dirname(__file__), 'FastSAM')
@@ -24,7 +33,13 @@ DATASET_JSONS_DIR = O_MAMA_ROOT / "dataset_jsons"
 FASTSAM_WEIGHTS = Path(__file__).parent / "FastSAM" / "FastSAM-x.pt"
 
 # FastSAM hyperparameters
-DEVICE = 'mps' if torch.backends.mps.is_available() else 'cpu' # Apple Silicon M4 Pro
+# Check MPS availability with fallback
+if torch.backends.mps.is_available():
+    DEVICE = 'mps'
+    print("Using MPS (Apple Silicon) device")
+else:
+    DEVICE = 'cpu'
+    print("MPS not available, using CPU")
 IMGSZ = 1024
 CONF = 0.4
 IOU = 0.9
@@ -208,9 +223,25 @@ def main():
     print(f"      Device: {DEVICE}, Image Size: {IMGSZ}, Conf: {CONF}, IoU: {IOU}")
     
     # Import FastSAM only when needed
-    from FastSAM import FastSAM
-    model = FastSAM(str(FASTSAM_WEIGHTS))
-    print("      Model loaded successfully!")
+    try:
+        from fastsam import FastSAM  # type: ignore[import-untyped]
+        model = FastSAM(str(FASTSAM_WEIGHTS))
+        print("      Model loaded successfully!")
+    except Exception as e:
+        error_msg = str(e)
+        if "NumPy" in error_msg or "numpy" in error_msg.lower():
+            print("\n" + "="*80)
+            print("ERROR: NumPy version incompatibility detected!")
+            print("="*80)
+            print("FastSAM/torchvision was compiled with NumPy 1.x but you have NumPy 2.x")
+            print("\nSOLUTION: Downgrade NumPy to version 1.x:")
+            print("  pip install 'numpy<2'")
+            print("\nOr upgrade torchvision (if available):")
+            print("  pip install --upgrade torchvision")
+            print("="*80)
+        else:
+            print(f"\nERROR loading FastSAM model: {e}")
+        raise
     
     # Process each split
     total_stats = {'success': 0, 'already_processed': 0, 'failed': 0, 'total_frames': 0}
