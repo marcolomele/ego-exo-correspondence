@@ -1,0 +1,5 @@
+When running `main_eval.py` I go error related to image size. 
+
+Key solution was to modify O-MaMa's image resizer to adjust the size to the needed input. 
+
+This suggests that O-MaMa was designed for normal quality takes. 

@@ -1,0 +1,21 @@
+TRAIN Results:
+        - Successfully processed: 7922
+        - Already processed: 1416
+        - Failed: 4
+
+      First 4 errors:
+        - 11bf68ee-12f0-435d-98eb-925c158ac705/aria01_214-1/6930: error: object of type 'NoneType' has no len()
+        - dd09ac20-b7ae-48e0-a0c1-69f49f541ac4/aria01_214-1/6150: error: object of type 'NoneType' has no len()
+        - ea9149f5-4953-4f44-9712-e45ccb976568/aria01_214-1/4440: error: object of type 'NoneType' has no len()
+        - ea9149f5-4953-4f44-9712-e45ccb976568/aria01_214-1/4470: error: object of type 'NoneType' has no len()
+
+      VAL Results:
+      
+
+      TEST Results:
+        - Successfully processed: 5322
+        - Already processed: 0
+        - Failed: 1
+
+      First 1 errors:
+        - 6d1847fe-d2d2-4a11-80fb-1cf5ff6d965a/aria01_214-1/1650: error: object of type 'NoneType' has no len()v
