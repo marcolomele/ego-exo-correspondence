@@ -94,7 +94,7 @@ def parse_args():
     parser.add_argument(
         "--annotation-root",
         type=str,
-        default="/Users/marcolomele/Documents/Repos/ego-exo-correspondence/annotations/relation_annotations",
+        default="../annotations/relation_annotations",
         help="Root directory for relation annotations"
     )
     return parser.parse_args()
