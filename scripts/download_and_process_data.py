@@ -102,7 +102,7 @@ def parse_args():
 
 def load_split_uids(scenario: str) -> Dict[str, List[str]]:
     """Load UIDs from split_{scenario}.json file."""
-    split_file = Path(f"output_dir_{scenario}/split.json")
+    split_file = Path(f"../output_dir_{scenario}/split.json")
     
     if not split_file.exists():
         raise FileNotFoundError(f"Split file not found: {split_file}")
