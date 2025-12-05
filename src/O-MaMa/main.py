@@ -100,12 +100,12 @@ if __name__ == "__main__":
     parser.add_argument("--root", type=str, default="../../data/root",help="Path to the dataset")
     parser.add_argument("--output_dir", type=str, default="train_output", help="Output directory")
     
-    parser.add_argument("--reverse", action="store_true", help="Flag to select exo->ego pairs")
+    parser.add_argument("--reverse", default=True, action="store_true", help="Flag to select exo->ego pairs")
 
     parser.add_argument("--order", default=2, type=int, help="order of adjacency matrix, 2 for 2nd order")
     parser.add_argument("--devices", default="0", type=str)
     parser.add_argument("--exp_name", type=str, default="Train_OMAMA_EgoExo")
-    parser.add_argument("--patch_size", type=int, default=16, help="Patch size of the dino transformer")
+    parser.add_argument("--patch_size", type=int, default=14, help="Patch size of the dino v2 transformer")
     parser.add_argument("--batch_size", default=12, type=int)
     parser.add_argument("--context_size", type=int, default=20, help="Size of the context sizo for the object")
     parser.add_argument("--N_masks_per_batch", default=32, type=int)
@@ -180,7 +180,7 @@ if __name__ == "__main__":
 # Training dataset only contains horizontal images, in order to batchify the masks
     logging.info("Loading training dataset...")
     train_dataset = Masks_Dataset(args.root, args.patch_size, args.reverse, N_masks_per_batch=args.N_masks_per_batch, order=args.order, train=True, test=False)
-    percent_train = max(1, int(0.1 * len(train_dataset)))
+    percent_train = max(1, int(1 * len(train_dataset)))
     from torch.utils.data import Subset
     train_dataset_subset = Subset(train_dataset, list(range(percent_train)))
     train_dataloader = torch.utils.data.DataLoader(
@@ -195,7 +195,7 @@ if __name__ == "__main__":
     
     logging.info("Loading validation dataset...")
     val_dataset = Masks_Dataset(args.root, args.patch_size, args.reverse, args.N_masks_per_batch, order=args.order, train=False, test=False)
-    percent_val = max(1, int(0.1 * len(val_dataset)))
+    percent_val = max(1, int(1 * len(val_dataset)))
     val_dataset_subset = Subset(val_dataset, list(range(percent_val)))
     val_dataloader = torch.utils.data.DataLoader(
         val_dataset_subset, 
@@ -209,11 +209,10 @@ if __name__ == "__main__":
     best_IoU = 0
 
     logging.info("Initializing model and optimizer...")
-    descriptor_extractor = DescriptorExtractor('dinov3_vits16', args.patch_size, args.context_size, device)
+    descriptor_extractor = DescriptorExtractor('dinov2_vits14', args.patch_size, args.context_size, device)
     model = Attention_projector(reverse = args.reverse).to(device)
     logging.info(f"Model:\n{model}")
 
-    # Collect all trainable parameters (model + feature projection if it exists)
     trainable_params = list(model.parameters())
     if descriptor_extractor.feature_proj is not None:
         trainable_params.extend(descriptor_extractor.feature_proj.parameters())

@@ -8,30 +8,24 @@ class DescriptorExtractor:
     def __init__(self, dino_model, patch_size, context_size, device):
         current_dir = os.path.dirname(os.path.abspath(__file__))
         
-        # Load DINOv2 pre-trained model 
-        # self.model = torch.hub.load('facebookresearch/dinov2', dino_model).to(device)
+        if dino_model == 'dinov2_vits14':
+            self.model = torch.hub.load('facebookresearch/dinov2', dino_model).to(device)
+        elif dino_model == 'dinov3_vits16_lvd1689m':
+            dinov3_dir = os.path.join(current_dir, '..', '..', 'dinov3-main')
+            dinov3_dir = os.path.abspath(dinov3_dir)
+            weights_path = os.path.join(dinov3_dir, 'dinov3_vits16_pretrain_lvd1689m-08c60483.pth')
+            self.model = torch.hub.load(dinov3_dir, dino_model, source='local', weights=weights_path).to(device)
+        else:
+            raise ValueError(f"Unsupported DINO model: {dino_model}")
 
-        # Load DINOv3 pre-trained model 
-        dinov3_dir = os.path.join(current_dir, '..', '..', 'dinov3-main')
-        dinov3_dir = os.path.abspath(dinov3_dir)
-        weights_path = os.path.join(dinov3_dir, 'dinov3_vits16_pretrain_lvd1689m-08c60483.pth')
-        self.model = torch.hub.load(dinov3_dir, dino_model, source='local', weights=weights_path).to(device)
         self.model.eval()
         
         with torch.no_grad():
             dummy_input = torch.zeros(1, 3, 224, 224).to(device)
             dummy_features = self.model.forward_features(dummy_input)
             dino_feat_dim = dummy_features['x_norm_patchtokens'].shape[-1]
-        
-        # Create projection layer to map from DINO feature dim to 768 (expected by model)
-        target_feat_dim = 768
-        if dino_feat_dim != target_feat_dim:
-            self.feature_proj = nn.Linear(dino_feat_dim, target_feat_dim).to(device)
-            # Initialize with identity-like transformation (scaled)
-            nn.init.xavier_uniform_(self.feature_proj.weight)
-            nn.init.zeros_(self.feature_proj.bias)
-        else:
-            self.feature_proj = None
+
+        self.feature_proj = None
         
         self.patch_size = patch_size
         self.device = device

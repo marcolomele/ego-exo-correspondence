@@ -3,6 +3,8 @@
 *.pt
 src/O-MaMa/main_eval_precomputed_hybrid.py
 src/O-MaMa/main_timed.py
+data/health_normal_data_omama
+data/health_casa_gio
 
 src/dinov3-main_ignored
 src/fastsam_extraction/FastSAM_ignored/
