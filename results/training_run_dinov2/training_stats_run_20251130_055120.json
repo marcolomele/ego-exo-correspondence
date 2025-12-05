@@ -1,0 +1,109 @@
+{
+    "exp_name": "Train_OMAMA_Precomputed",
+    "run_folder": "run_20251130_055120",
+    "args": {
+        "root": "../../data/health_normal_data_omama",
+        "features_dir": "../../data/health_normal_data_omama/precomputed_features_dinov2",
+        "reverse": true,
+        "patch_size": 14,
+        "context_size": 20,
+        "devices": "0",
+        "N_masks_per_batch": 32,
+        "batch_size": 12,
+        "N_epochs": 10,
+        "order": 2,
+        "exp_name": "Train_OMAMA_Precomputed",
+        "output_dir": "train_output",
+        "num_workers": 4,
+        "dino_feat_dim": 768,
+        "target_feat_dim": 768
+    },
+    "train_losses": [
+        0.9956182577582293,
+        0.5722474237080923,
+        0.4552666997038868,
+        0.38506129765233327,
+        0.34294057927679183,
+        0.3084972304573586,
+        0.28435216632639165,
+        0.2697612104374309,
+        0.25419075978746597,
+        0.2531324891470979
+    ],
+    "val_losses": [
+        1.1457599847942757,
+        1.05045272818674,
+        1.1076361664423688,
+        1.1142011630431559,
+        1.1721395817604978,
+        1.1182996100740188,
+        1.1766095121802633,
+        1.1711685828333938,
+        1.1974520576368608,
+        1.2267639086553217
+    ],
+    "val_metrics": [
+        {
+            "iou": 0.4731984968093409,
+            "shape_acc": 0.5864228023186803,
+            "location_score": 0.05882534599786407,
+            "balanced_acc": 0.5
+        },
+        {
+            "iou": 0.5091323644804712,
+            "shape_acc": 0.6111932675500699,
+            "location_score": 0.05495206027764338,
+            "balanced_acc": 0.5332779393435813
+        },
+        {
+            "iou": 0.5047468788181074,
+            "shape_acc": 0.6108932605930429,
+            "location_score": 0.05808104003817297,
+            "balanced_acc": 0.5
+        },
+        {
+            "iou": 0.5016933572661779,
+            "shape_acc": 0.608331509764564,
+            "location_score": 0.05561383819854647,
+            "balanced_acc": 0.5308683007893643
+        },
+        {
+            "iou": 0.4881105341572428,
+            "shape_acc": 0.5841590703801761,
+            "location_score": 0.0696507912937518,
+            "balanced_acc": 0.5481096800997092
+        },
+        {
+            "iou": 0.5035152008102156,
+            "shape_acc": 0.5988260654960047,
+            "location_score": 0.06636595680178244,
+            "balanced_acc": 0.5308683007893643
+        },
+        {
+            "iou": 0.4982646422539841,
+            "shape_acc": 0.5949061920381071,
+            "location_score": 0.06475163264510911,
+            "balanced_acc": 0.529663481512256
+        },
+        {
+            "iou": 0.47998945221493344,
+            "shape_acc": 0.5731756707902411,
+            "location_score": 0.07434519587971163,
+            "balanced_acc": 0.5543207312006647
+        },
+        {
+            "iou": 0.48318901238374445,
+            "shape_acc": 0.5764536232461078,
+            "location_score": 0.0733125458499587,
+            "balanced_acc": 0.529663481512256
+        },
+        {
+            "iou": 0.47874859735249387,
+            "shape_acc": 0.5706980065755562,
+            "location_score": 0.07530773597590712,
+            "balanced_acc": 0.527253842958039
+        }
+    ],
+    "best_iou": 0.5091323644804712,
+    "pipeline": "precomputed_features"
+}

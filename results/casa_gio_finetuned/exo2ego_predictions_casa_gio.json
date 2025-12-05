@@ -1,0 +1,468 @@
+{
+    "exo-ego": {
+        "results": {
+            "take": {
+                "masks": {
+                    "adhesive bandage pack_35": {
+                        "cam01_aria02_214-1": {
+                            "4": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "PYj1f0Ve08G8I>A6K8G>C5K9G;E5K9G<D6J5K3M1O2NO1L4O0L5gNY1N2M3N2O1O1O001O100O100O010O10000O1O10000O10O10O100O10O10O1O10O0100000000O1O100O10000O1O100O1000OO20000O100O0010000O1O100O00100O100O10O10O00100O100O100O2O2N3L3M3N3L3N3M3L3N5J4M3L4M3M2N5J3M3MTac:"
+                                },
+                                "confidence": [
+                                    0.6902859210968018
+                                ]
+                            },
+                            "12": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "j`\\5l1oc03M101N10001N1O2O0O100O2N10001c\\OQNjb0h2I:F6J8G4M1N2O1N2L4M2M3N2O1N101O00O2O00001O01O10O10O010000O010000O1000000000001O0O2O1O1O1O2N2N4L1O001O00000000000000000000000000O100000000000000000000O10000000000000000000000000000000000000000O1000000000O10O10000000000000000000000000000O100000000000000000000000000000000000000000000O1000000000000O1000000@T_OPLl`0m3Z_OPLf`0n3^_OPLb`0o3a_OoK``0o3d_OmK]`0R4g0O100O2O0O101O1O001O1O001O101N2O0O2N2N1O1000O01O009G=C:Dm0RNU\\OI^d0O\\`V5"
+                                },
+                                "confidence": [
+                                    0.6845700740814209
+                                ]
+                            }
+                        }
+                    },
+                    "bandage box_33": {
+                        "cam01_aria02_214-1": {
+                            "3": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "Sh^18ce06J2O3L6J2N5K5L1N5K4L3M4L3M3M2N2N2N101N1O1O2N2N100O2N1O1O101N1O2N1O1O2N1O2N1O2O0O1O1O2N1O2N100N3N100N3O0O2N1O2N1O100O2N1O2N1O2N100O2N1O1O2N1O1O2O0O1O2N1O1O1O1O1O100O1O1O00O101N101O0O2O1N1O2N101O001N2O1O1N200N2O1O1N2O1O1N2O1O1N5M7H3L2O1N2N2N3M2N2O1N2O1O1O1O1OO0200O100O1O10001O1N100000001O001O1O000000001N2O0000001O0000001O001O000O101O000O1O2N1O2N1O1N2O101M200O1N2O001O001N101N8I4L3M1O2N3M2M3O5I3N_hW9"
+                                },
+                                "confidence": [
+                                    0.6820693016052246
+                                ]
+                            },
+                            "5": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "]jS1n1ab0b1C:H9K5L2N5L2M4M4K2O4L3M2N4L3M1O4L1O00000O1000000000000O1000000000O100O10O1000O10000000000O10O1000O10000000O010000000000O100000O010000000000O100000O10O100000O0100000000O01000000O10O10000000000O1000001O2M4M8H2N4L5J3N7I7I2N4L8G4M7I6J4K6K4L6J7I2N8H8H2N8G4M3M7I4K4M8GZfo:"
+                                },
+                                "confidence": [
+                                    0.6838173866271973
+                                ]
+                            },
+                            "7": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "mdj341:Xe0H;2O101N3M1O3M2N2N2N2O1O1O2N002NUOU[Of0kd0ZOU[Of0kd0YOW[Of0Pe0O002N001O2M1O3M3NnP`:"
+                                },
+                                "confidence": [
+                                    0.6879323124885559
+                                ]
+                            }
+                        }
+                    },
+                    "drug packaging_10": {
+                        "cam01_aria02_214-1": {
+                            "8": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "T2W5e`0001O2N1O3M2N1O3M2O0O3M2N2N2O001OO00001O1O1O0O2O2M101O2M102M2O2M4M2M5L3L3N4K4M1O5J3M3N5J4M3M5J3M4M3M3M4K4L3N4K4M3M3L3N4K4M3L5L3M3L5L2M4M4K3N2N4K3N3L4M2M4M3L4L5K]mV="
+                                },
+                                "confidence": [
+                                    0.6900288462638855
+                                ]
+                            },
+                            "13": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "ZQS4i0hd0<F:H8D;J7D;E<I6D<I7J6@`0I7H8H8D<H5N5N2O1O100000000000000000000000000001O00000000001O000O1000000000000O10000000001N100000000O100000001O000000000O2O000O10000000000O1000000000001O0000000000000000001O000000001O0001O000000001O001O00001O1O1O001O1O001O0000000001O00000000001O0000000000001O0000000000000001O00000000000000000000000001O00001O0000000000001O000000000000000000000000000O100O1O100O2O0O101N100O1000000000000000000000001O00000001O0000001O0001O001O2bL__O\\1c`0kLb_OV1=Do0^OTmP6"
+                                },
+                                "confidence": [
+                                    0.6923983097076416
+                                ]
+                            }
+                        }
+                    },
+                    "glass cup_26": {
+                        "cam01_aria02_214-1": {
+                            "5": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "TQg6?]e07I>B2Na0^O5L5K:E6K4L3M1M4K5L3J7M2M2L4O0N3N2N1L5N2N2L301N2G90O100O1000000000001O1O0O2O1O1O1O1O0O2O1O1O1O1O001O1O1O001O1O1O010O2N1O1O1O1N2O1O001O1O1O011N1O1O1O2N1O100O1O1O10O1001OO10020N2N01N002N1O1O2L4N1M3N1O1N2O1N2N2O0N2L5L3N3K5N0M5L3O2J6N0O3K5O0I7O1N2M3O2M2L4O2K4L40\\l[5"
+                                },
+                                "confidence": [
+                                    0.6929779648780823
+                                ]
+                            }
+                        }
+                    },
+                    "glass of water_1": {
+                        "cam01_aria02_214-1": {
+                            "4": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "UmT9f6V?0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000SVm1"
+                                },
+                                "confidence": [
+                                    0.6881265640258789
+                                ]
+                            }
+                        }
+                    },
+                    "hand cream tube_29": {
+                        "cam01_aria02_214-1": {
+                            "9": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "]\\l1`2\\c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000[kh9"
+                                },
+                                "confidence": [
+                                    0.6759302020072937
+                                ]
+                            },
+                            "10": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "]jQ<;ae00000001O00010O0001O00000000000000000000000000000000000000O100O1000O100O10000O1N2N2NaYo1"
+                                },
+                                "confidence": [
+                                    0.6770665049552917
+                                ]
+                            },
+                            "11": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "XWU2X2dc0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000llh9"
+                                },
+                                "confidence": [
+                                    0.6861401200294495
+                                ]
+                            },
+                            "12": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "e`c1?]e02M5K2O3M3L2O2M4M0O3N2M101N2O0O2O1O0O2N2O1N2O001N1O2O1O1N101N2O0O2OO0100O10O001000O01O0010O1000O0010O0100O10O010O010O0100O010O010O010O10O0010O100O010O0001000O010O0001000O10O00010O10O10O0001000O0100O1O0100O010O010O0010O1O01000O00100O01000O0010O010000O00100O100O0010O10O010O1O01000O1O10000O102M9G4M2N1N100O100O10O01O100O0010O0100O001O100N2M3O3M7I2N1I8L210000O10000O0100000O100d`Z9"
+                                },
+                                "confidence": [
+                                    0.6809777617454529
+                                ]
+                            }
+                        }
+                    },
+                    "hand_37": {
+                        "cam01_aria02_214-1": {
+                            "7": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "Zma49ce0001M3O2M2O0N3O1N2O0O1O100000000000000001O0O100N4N1N2M4M1OPSh9"
+                                },
+                                "confidence": [
+                                    0.6756908297538757
+                                ]
+                            }
+                        }
+                    },
+                    "instruction leaflet_19": {
+                        "cam01_aria02_214-1": {
+                            "10": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "X_^9<[e05L4M3L4J6O001000001O0000000000O1000000001O000000001O1O2N7I3M3M8[\\OUNib0n1R]OUNmb0S2g\\OQNYc0Z2O2N2N2N1O1O0V]O[M]b0f2_]O]Mab0c2]]O_Mcb0m20000001O000000000000000000000000000000000000000000000000000000000I\\]OVMdb0j2\\]OVMeb0i2[]OWMeb0i2[]OWMeb0i2[]OWMeb0i2[]OWMeb0i2[]OWMeb0i2[]OWMeb0P3001O00000000000000000000000000001O0000000000000000000000000000001O00001K5cMaQl2"
+                                },
+                                "confidence": [
+                                    0.6793602705001831
+                                ]
+                            }
+                        }
+                    },
+                    "medication box_8": {
+                        "cam01_aria02_214-1": {
+                            "1": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "\\Sg6Z1kc0h0C=lNS1XOh0C=G:J500O100000000000000000000000000000000000000000000000000000001O0000000000000000001O00010O0000000000000000000000000000001O000001O00000000000000001O00000000000O101N1O100O10O10O1000001O00000001O000000001O0000001O1O00001O000000000001N1PO\\_O\\LRa0T2Yjb5"
+                                },
+                                "confidence": [
+                                    0.6861744523048401
+                                ]
+                            },
+                            "10": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "ZlQ29ce02N2N2M2O00O1O001O10O0100O100O1000000000O010O100000O010000000000000O10O100O10O10000000O10O100000000O0100O10000000O10000O100O2Nal`;"
+                                },
+                                "confidence": [
+                                    0.680450439453125
+                                ]
+                            },
+                            "11": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "keX28de03M2N2N2M2OO001O1O1O100O1O10000O10O10O010000O1000O100000000O1000O100O10O10O100000O1000000000O1000O0100000O100O100O3K\\`];"
+                                },
+                                "confidence": [
+                                    0.688046932220459
+                                ]
+                            }
+                        }
+                    },
+                    "medicine box_7": {
+                        "cam01_aria02_214-1": {
+                            "12": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "e`c1?]e02M5K2O3M3L2O2M4M0O3N2M101N2O0O2O1O0O2N2O1N2O001N1O2O1O1N101N2O0O2OO0100O10O001000O01O0010O1000O0010O0100O10O010O010O0100O010O010O010O10O0010O100O010O0001000O010O0001000O10O00010O10O10O0001000O0100O1O0100O010O010O0010O1O01000O00100O01000O0010O010000O00100O100O0010O10O010O1O01000O1O10000O102M9G4M2N1N100O100O10O01O100O0010O0100O001O100N2M3O3M7I2N1I8L210000O10000O0100000O100d`Z9"
+                                },
+                                "confidence": [
+                                    0.6836699843406677
+                                ]
+                            }
+                        }
+                    },
+                    "medicine leaflet_20": {
+                        "cam01_aria02_214-1": {
+                            "2": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "_\\\\41XR18XC4I7H7M3J6J6M3I7L4L4I7L4I7J7L3H8M3J6J7L3M3mGSNTGEh0fNSN4n0f3m8RNWGL4k3_8`LZGf6b8_IZGe6d8]IZGd6e8^IYGc6f8_IVGd6j8]ITGd6k8_IQGc6o8_IkFe6U9R3O000O10000000001O00000000000O10000000000000000O10000000000O1000000000000000000000000000000O10000000000000000O10000000000O100000000000000000000000000O1000000O10000O100000000000000O10000O100000000O100000000O100O10000000000O0100000O10O1000O100000000000O100000O010000000O10O10O1000000000O1000000O100000O100000O010000O1000O10000O10000000O10000O01000O10O100000000O100000O1000O10000O010000000000O10000000O1000O010000O01000000000O10O1000000O10O10O1000O1jGUG[3k8`L_G[3a8cLcG[3]8dLfGZ3Y8fLjGX3V8gLlGX3T8hLmGV3T8iLoGU3Q8jLPHV3o7kLSHS3m7mLTHQ3m7oLSHQ3m7oLUHo2k7QMVHn2j7RMVHm2k7SMWHk2i7UMXHj2h7VMYHi2h7VMYHi2i7UMXHj2V8iLkGT3`8bLaG]3S9oKnFP4X9jKiFU4Z9hKgFW4a9bK_F\\4i9]KWFc4m9YKTFf4Y:mJhEQ5_:iJbEV5c:eJ^EZ5R;VJnDj5W;QJjDn5\\;kIfDT6a=01N2O1O001O1N2O1O1O2N4L4K6K;E4L;E6J4K>C7I4L8G3N5K7I3M6J6I4M9G4L5K6J4K:G5K4K8I3M2N:F3MVT^3"
+                                },
+                                "confidence": [
+                                    0.6921082735061646
+                                ]
+                            },
+                            "8": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "Z_Z4l0gd0:M200000000f^OlNl=T1oASOo=m0QBSOo=m0RBROm=P1RBoNo=Q1PBQOo=o0PBROP>n0lAVOT>k0eA[O[>f0bA\\O^>d0\\ABd>?RAJn>7n@LR?5^@:b?Gl_Oj0T`0WOf_Om0[`0\\On^OR1Ra0l1000000000O1000000000000000000000000000000O10000000000O1000000000000000000O010000000000000000000O100000000000000O100000000000000000000O100000000000000O100000000000000O1000000000000000000000001N10000000000O10000000000000000000O0100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000O1000000000010O0000000O10000000000000000000000000000000000000000000001O0000000000000000001O00000000000000000000000000001O00000000001O000000000000000000001O0000000000000000000000001O00001O000000000000000000000000001O000000000000000000001O00001O000000001O0O10SMV_Oh0j`0VO\\_Of0d`0YO`_Od0``0ZOe_Oc0[`0\\Oh_Ob0X`0^Oi_Oa0W`0^Ol_O`0T`0@n_O>R`0AQ@=o?BU@;k?EV@:j?FX@8h?HZ@6f?J[@6d?I`@4a?Kc@2\\?Nf@0Z?0g@OY?1h@N[?Og@Ob?G`@8j?^OX@`0cb0O2N2N1O1O2N2N1O1O2N1O1O2N1O2N3M3M4L3M1OXof2"
+                                },
+                                "confidence": [
+                                    0.6903060078620911
+                                ]
+                            }
+                        }
+                    },
+                    "medicine packet_13": {
+                        "cam01_aria02_214-1": {
+                            "2": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "Vk^25fe03N1O1N3N1O3M1O2M3N1O3M1O2M2O2M3N3M2N5K4L1N4M5J3N5K4L3L7J4L3M4L1N2O2M2O2N2N1O2M2O2N2M2O2M3N1O2N1O2M3N2N1O2M100O10000000000O1000O10O0010O100000O10000O0010000O1000000001O1O100O2N1O1O2N1N2O2M2N3N1N2N3M2O2N1N3M2O1N3N1O1O2M2N2N2^NX]OhNPd0k0g0CR[OGRe05=O1N3N0O4Kfml9"
+                                },
+                                "confidence": [
+                                    0.6819751262664795
+                                ]
+                            },
+                            "3": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "Sh^18ce06J2O3L6J2N5K5L1N5K4L3M4L3M3M2N2N2N101N1O1O2N2N100O2N1O1O101N1O2N1O1O2N1O2N1O2O0O1O1O2N1O2N100N3N100N3O0O2N1O2N1O100O2N1O2N1O2N100O2N1O1O2N1O1O2O0O1O2N1O1O1O1O1O100O1O1O00O101N101O0O2O1N1O2N101O001N2O1O1N200N2O1O1N2O1O1N2O1O1N5M7H3L2O1N2N2N3M2N2O1N2O1O1O1O1OO0200O100O1O10001O1N100000001O001O1O000000001N2O0000001O0000001O001O000O101O000O1O2N1O2N1O1N2O101M200O1N2O001O001N101N8I4L3M1O2N3M2M3O5I3N_hW9"
+                                },
+                                "confidence": [
+                                    0.6751401424407959
+                                ]
+                            },
+                            "4": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "PYj1f0Ve08G8I>A6K8G>C5K9G;E5K9G<D6J5K3M1O2NO1L4O0L5gNY1N2M3N2O1O1O001O100O100O010O10000O1O10000O10O10O100O10O10O1O10O0100000000O1O100O10000O1O100O1000OO20000O100O0010000O1O100O00100O100O10O10O00100O100O100O2O2N3L3M3N3L3N3M3L3N5J4M3L4M3M2N5J3M3MTac:"
+                                },
+                                "confidence": [
+                                    0.6924211382865906
+                                ]
+                            },
+                            "5": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "[So51he05M1N2N2N2O1N2O0O2O1O1O1O1O1O1O1O1O101M200O100O2N100O1O1K5N2M3N3N3L:G5Ja0_O9I553D3M3M:C8\\OTLf^OY4o`0>M2N3F:K4K5I6N2L4K4O2K401N2L4O0N3M3O1L301O0N30^IPAX6n>jIRAV6k>lIVAT6j>gIVAK0^6i>gIYAIO`6e>jI\\AY6c>iI]AW6`>lI`AT6^>f0O1M3O1N101N2M3O1N2N2O1O1M3O1N2N2O1N2N2O2M2O1N2N2O1N1O2O2L3O1N2N2O1N2N200N2O1N2O2N100OlImCb2S<YMSDe2m;ZMVDe2i;ZMYDf2g;XM[Dh2d;WM^Di2a;VMaDj2_;TMcDm2\\;RMeDP3Y;oLgDR3X;mLkDR3T;nLmDR3S;mLnDQ3T;nLmDP3T;PMlDo2V;PMlDn2T;RMlDm2V;RMkDl2W;SMjDk2W;UMjDi2X;VMiDg2Y;YMhDd2[;[MfDc2[;]MeD`2_;_MaD`2`;`MaD\\2c;cM_DU2h;jMXDT2j;lMWDn1o;QNRDi1S<WNnCg1T<XNlCc1Z<\\NhC_1[<aNeC]1^<cNbCW1c<iN^CS1f<mNZCo0j<POWCk0m<UOTCh0o<XOQC`0V=@jB=Z=BgB;\\=EdB5a=K_B3c=M^BOf=1ZBJk=5UBHn=9RBBR>>nA\\OY>d0gAXO\\>h0eAROa>n0^AoNf>P1[AnNf>R1ZAkNj>U1VAfNn>Z1SAcNP?]1o@]NX?b1i@ZNZ?g1e@XN\\?h1e@UN^?k1b@RNa?m1`@PNb?Q2]@mMf?R2Z@nMf?R2]@hMg?X2o1O0100O01O10O100O0100O010O010O10O1O01000O0010O10O10O00100O001N1O2N1O2L3O2N1N3N2M2N3N1N3N2M2O1O2M3N1O2M2N3N2M2O2M2N3N2N2M2O3LZff3"
+                                },
+                                "confidence": [
+                                    0.6803608536720276
+                                ]
+                            },
+                            "10": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "]i]9<^e02M3K5L4L3J7000O1O1N2H8L4J6L4LPjU5"
+                                },
+                                "confidence": [
+                                    0.6760373711585999
+                                ]
+                            }
+                        }
+                    },
+                    "medicine sachet_11": {
+                        "cam01_aria02_214-1": {
+                            "2": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "PVW;3he03N000O2O1N2N101N1O1O2N101N2N100O2N1O2N2O0O2N1O2N2N1O2O0O2N2N1O1O2N2O1N1O101N2N2O0O101O1N101O011N01O010O00100O01O01O11N01LR\\OYNmc0l1ON20001O00010O01O01O000010O010O0010O0002OO0010O0001000O010O0[\\OTN[c0l1c\\OUN^c0k1a\\OUN`c0j1`\\OVN`c0k1_\\OUNbc0j1]\\OWNdc0i1[\\OWNec0i1[\\OWNec0j1Z\\OVNfc0j1Z\\OVNgc0i1X\\OXNhc0n11O1O0O1O1010O01O001O0000001O0O2M2O2N1O2N1N3O0N2O2N1N2O2N1O2N1O2M201N1N3O0N3N1O2M2O2N1O2N1N3N1OoR`0"
+                                },
+                                "confidence": [
+                                    0.6877411603927612
+                                ]
+                            }
+                        }
+                    },
+                    "pharmaceutical box_9": {
+                        "cam01_aria02_214-1": {
+                            "9": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "Xgb56fe02M2O2M3M4M8HS2mM<R^OVMR`0\\4M2O3M001O1O001O0O10000O100000001O00001O00001O0O10000000000000000000000000000O100000000000000000O100O1O1O1000ON3000000O10000O10000O10000O1000000O100O10000O10000000000000000000000000000001O0000001O1O001O002N2N1O1O000000000000000000000000O10000000000O10000000000000000000000000000000000000000000000000000000000O10000000O01O1O10000O1O100O1000000O100000000000000000000000000001O00000000001O0000001O00001O00001O00000001O1O9G4L:F>B6Ic0^O7I8Ga0_O8I9Fa0_O:F<DQR]4"
+                                },
+                                "confidence": [
+                                    0.6838245987892151
+                                ]
+                            }
+                        }
+                    },
+                    "spoon_27": {
+                        "cam01_aria02_214-1": {
+                            "1": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "\\kP47de03M100N200O1O1O100O1O1O100OO10010OO11O0000001O0000001OO20O0000010N11O00O20O0000010N0110O00001O0000010O1O00100N2O100G`ZO4be0K_ZO4_[e9"
+                                },
+                                "confidence": [
+                                    0.678960919380188
+                                ]
+                            },
+                            "2": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "hXQ82je0000O100O1O100O100O1O100O100O01O0100O010O100O1O100O10000N20000O01O01O010O10O01O0010O1O00010O100O0010O01O100O1O1O1O001O1O001O00010O100O10000O1000k[[5"
+                                },
+                                "confidence": [
+                                    0.6757990717887878
+                                ]
+                            },
+                            "3": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "Pjk77de02N2N2O0O2N1O2O0O1O1O100N110O01O000010O00000000010O01O00010O0000001O01O01O0001OO2O01O0001O01O01O000000010O000010O0000010O0001O1O1O010O1O1O1O1O00001N2N1000001O10O01O10O010nnW5"
+                                },
+                                "confidence": [
+                                    0.6752375960350037
+                                ]
+                            },
+                            "4": {
+                                "pred_mask": {
+                                    "size": [
+                                        700,
+                                        700
+                                    ],
+                                    "counts": "^`P2e0We05K:F8H7I5K0001O1O1O1O1M3cNP_d<"
+                                },
+                                "confidence": [
+                                    0.678735077381134
+                                ]
+                            }
+                        }
+                    }
+                },
+                "subsample_idx": [
+                    "4",
+                    "12",
+                    "3",
+                    "5",
+                    "7",
+                    "8",
+                    "13",
+                    "9",
+                    "10",
+                    "11",
+                    "1",
+                    "2"
+                ]
+            }
+        }
+    }
+}

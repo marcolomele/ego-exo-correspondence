@@ -1,10 +1,22 @@
 # other
 *.zip
+*.pt
+src/O-MaMa/main_eval_precomputed_hybrid.py
+src/O-MaMa/main_timed.py
+
+src/dinov3-main_ignored
+src/fastsam_extraction/FastSAM_ignored/
 mentalnotes.md
-SegSwap_way/
+src/SegSwap_way/
 client_secret_drive.json
 output_dir_cooking/split.json
 health_downscaled_data_omama
+dinov3-main/
+results/experimental
+src/fastsam_extraction/extract_masks_FastSAM_casa_gio.py
+src/fastsam_extraction/FastSAM_masks_creation.py
+src/O-MaMa/model/model_layers_timed.py
+src/O-MaMa/model/model_timed.py
 
 # data
 ego4d_data/
@@ -22,6 +34,7 @@ o_mama_health/processed/
 o_mama_health/*.py
 o_mama_health/*.md
 health_normal_data_omama/
+health_casa_gio/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

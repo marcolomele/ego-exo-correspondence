@@ -1,0 +1,1 @@
+Download from [here](https://drive.google.com/file/d/1EwFs5TXwGaJR7nkt_ldmotHAP9UqvLAU/view) and name the file as `Exo2Ego_weights_checkpoint.pt`. Store it inside `O-MaMa` folder.

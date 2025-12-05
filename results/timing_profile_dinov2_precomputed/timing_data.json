@@ -1,0 +1,60 @@
+{
+    "data_loading": 4.1606836020946503e-07,
+    "descriptor_extraction_dest": 0.15301366616040468,
+    "descriptor_extraction_source": 0.01279033301398158,
+    "model_forward": 0.016614875057712197,
+    "model_forward_breakdown": {
+        "extract_object_descriptors": 1.2958887964487076e-05,
+        "dest_dense_feats_preparation": 0.0011885410640388727,
+        "cross_attention_source_to_dest": 0.0058295829221606255,
+        "source_dense_feats_preparation": 0.00032295798882842064,
+        "cross_attention_dest_to_source": 0.006380334030836821,
+        "mlp_source_descriptors": 0.00020841695368289948,
+        "mlp_dest_descriptors": 0.0004327499773353338,
+        "descriptor_normalization": 0.00010837498120963573,
+        "similarity_computation": 7.5541902333498e-05,
+        "best_mask_selection": 3.5082921385765076e-05,
+        "topk_selection": 3.741588443517685e-05,
+        "full_pred_mask_extraction": 1.4874851331114769e-05,
+        "loss_computation": 0.0017511248588562012,
+        "sigmoid_activation": 2.4999957531690598e-05,
+        "total_forward_pass": 0.016429540934041142
+    },
+    "cross_attention_1_details": {
+        "norm_input": 0.001361957984045148,
+        "query_projection": 0.00037012482061982155,
+        "key_projection": 0.0020883330143988132,
+        "value_projection": 0.0013032089918851852,
+        "attention_matmul_and_scale": 0.0003207910340279341,
+        "attention_softmax": 5.329190753400326e-05,
+        "attention_weighted_sum": 9.879213757812977e-05,
+        "output_projection": 5.908310413360596e-05,
+        "residual_add": 8.312053978443146e-08,
+        "feedforward_mlp": 0.0001474160235375166,
+        "total_context_attn": 0.005810791859403253
+    },
+    "cross_attention_2_details": {
+        "norm_input": 0.001049417071044445,
+        "query_projection": 0.0001773748081177473,
+        "key_projection": 0.0018755418714135885,
+        "value_projection": 0.0017201672308146954,
+        "attention_matmul_and_scale": 0.0008162080775946379,
+        "attention_softmax": 9.012501686811447e-05,
+        "attention_weighted_sum": 0.00024850014597177505,
+        "output_projection": 0.0001699579879641533,
+        "residual_add": 8.312053978443146e-08,
+        "feedforward_mlp": 0.00021558301523327827,
+        "total_context_attn": 0.006370125105604529
+    },
+    "mlp_timings": [
+        {
+            "total_mlp": 0.0001894170418381691
+        },
+        {
+            "total_mlp": 0.0003896250855177641
+        }
+    ],
+    "loss_backward": 0.04683949984610081,
+    "optimizer_step": 0.012210041051730514,
+    "total_iteration": 0.24225629214197397
+}
