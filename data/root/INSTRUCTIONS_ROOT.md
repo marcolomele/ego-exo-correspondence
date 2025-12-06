@@ -40,7 +40,6 @@ where
 │       └── {cam_2}/
 │           └── {frame_1}.jpg
 │           └── ...
-
 ```
 and
 ```
@@ -50,9 +49,7 @@ and
 │   ├── val_egoexo_pairs.json
 
 ```
-
 and
-
 ```
 Masks_TRAIN_EXO2EGO/
 ├── [take_UID_1]
@@ -65,3 +62,13 @@ Masks_TEST_EXO2EGO/
 Masks_VAL_EXO2EGO/
 |── ...
 ```
+and
+```
+└── precomputed_features/
+│   └── {take_UID_1}/
+│       └── {cam_1}/
+│           └── {frame_1}.npz
+│           └── ...
+│       └── {cam_2}/
+│           └── {frame_1}.npz
+│           └── ...```
