@@ -28,7 +28,6 @@ ego-exo-correspondence/
 │   ├── DATA_PIPELINE_GUIDE.md
 │   └── RELATION_DATA_GUIDE.md
 ├── notebooks/                 # Jupyter notebooks
-│   └── utils_and_visuals.ipynb
 ├── results/                   # Experiment outputs
 │   ├── training_run_*/        # Training logs & checkpoints
 │   ├── evaluation_*_run_*/    # Evaluation metrics
