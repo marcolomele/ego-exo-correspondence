@@ -1,7 +1,8 @@
 # Towards Exo-Ego Correspondence 👀
-## A Technical Review of the State of the Art – Featuring Ego-Exo4D and Object Mask Matching (O-MaMa)
+## A Technical Review of the State of the Art
+### Featuring Ego-Exo4D and Object Mask Matching (O-MaMa)
 
-Augmenting object detection and tracking from Ego POV with Exo POV using deep visual correspondence. Research project for Deep Learning for Computer Vision (20060) Bocconi MSc course.
+Research project for Deep Learning for Computer Vision (20060) Bocconi MSc course.
 
 Built on [O-MaMa](https://github.com/Maria-SanVil/O-MaMa) with support for multiple backbone architectures (DINOv2, DINOv3, ResNet-50) and precomputed feature extraction for accelerated training.
 
@@ -9,6 +10,7 @@ Built on [O-MaMa](https://github.com/Maria-SanVil/O-MaMa) with support for multi
   <img src="assets/ego_exo_banner.png" alt="Ego-Exo Correspondence overview" width="600"/>
 </p>
 
+Read the [official report](docs/report_towards_exo-ego_correspondence.pdf).
 
 ---
 
@@ -16,27 +18,29 @@ Built on [O-MaMa](https://github.com/Maria-SanVil/O-MaMa) with support for multi
 
 ```
 ego-exo-correspondence/
-├── config/                    # Environment configuration
-│   └── requirements.txt       # Python dependencies
-├── data/                      # Dataset storage (gitignored)
-│   ├── raw/                   # Raw EgoExo4D videos
-│   ├── root/                  # Processed data for O-MaMa
-│   ├── casa_gio/              # Custom hand-made dataset
-│   └── annotations/           # Relation annotations
-├── docs/                      # Project documentation
+├── config/                                                     # Environment configuration
+│   └── requirements.txt                                        # Python dependencies
+├── data/                                                       # Dataset storage (gitignored)
+│   ├── raw/                                                    # Raw EgoExo4D videos
+│   ├── root/                                                   # Processed data for O-MaMa
+│   ├── casa_gio/                                               # Custom hand-made dataset
+│   └── annotations/                                            # Relation annotations
+├── docs/                                                       # Project documentation
 │   ├── BOTTLENECK_ANALYSIS.md
 │   ├── DATA_PIPELINE_GUIDE.md
 │   └── RELATION_DATA_GUIDE.md
-├── notebooks/                 # Jupyter notebooks
-├── results/                   # Experiment outputs
-│   ├── training_run_*/        # Training logs & checkpoints
-│   ├── evaluation_*_run_*/    # Evaluation metrics
-│   └── timing_profile_*/      # Performance benchmarks
-└── src/                       # Source code
-    ├── O-MaMa/                # Core model implementation
-    ├── scripts/               # Data processing & utilities
-    ├── fastsam_extraction/    # FastSAM mask extraction
-    └── dinov3-main/           # DINOv3 backbone setup
+│   └── report_towards_exo-ego_correspondence.pdf
+│   └── presentation_towards_exo-ego_correspondence.pdf
+├── notebooks/                                                  # Jupyter notebooks
+├── results/                                                    # Experiment outputs
+│   ├── training_run_*/                                         # Training logs & checkpoints
+│   ├── evaluation_*_run_*/                                     # Evaluation metrics
+│   └── timing_profile_*/                                       # Performance benchmarks
+└── src/                                                        # Source code
+    ├── O-MaMa/                                                 # Core model implementation
+    ├── scripts/                                                # Data processing & utilities
+    ├── fastsam_extraction/                                     # FastSAM mask extraction
+    └── dinov3-main/                                            # DINOv3 backbone setup
 ```
 
 ---
