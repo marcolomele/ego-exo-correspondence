@@ -17,7 +17,7 @@ Read the [official report](docs/report_towards_exo-ego_correspondence.pdf).
 ## 📁 Project Structure
 
 ```
-ego-exo-correspondence/
+exo-ego-correspondence/
 ├── config/                                                     # Environment configuration
 │   └── requirements.txt                                        # Python dependencies
 ├── data/                                                       # Dataset storage (gitignored)
