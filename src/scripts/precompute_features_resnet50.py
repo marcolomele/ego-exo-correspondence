@@ -48,10 +48,6 @@ def get_target_size(reverse, is_source):
     """
     Get target image size to preserve aspect ratios and match DINOv2 feature grids.
     
-    Uses same image sizes as DINOv2:
-        - reverse mode (exo->ego): source=608x1088 (exo), dest=800x800 (ego)
-        - normal mode (ego->exo): source=800x800 (ego), dest=608x1088 (exo)
-    
     These sizes are then adaptively pooled to 50×50 or 38×68 to match DINOv2 grids.
     """
     if reverse:
@@ -67,13 +63,6 @@ def get_target_size(reverse, is_source):
 
 
 def get_target_pool_size(reverse, is_source):
-    """
-    Get target pooling size to match DINOv2 feature grids.
-    
-    DINOv2 with patch_size=16 produces:
-        - 800×800 images → 50×50 features
-        - 608×1088 images → 38×68 features
-    """
     if reverse:
         if is_source:
             return 38, 68  # exo → 38×68 grid
@@ -682,3 +671,4 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     precompute_features(args)
+
