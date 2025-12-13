@@ -8,17 +8,17 @@
 
 ### Issues
 1. **Heavy Model Forward Pass**
-   - DINOv3 ViT-Small model runs on every batch
+   - DINOv2 ViT-Base model runs on every batch
    - Even with `torch.no_grad()`, forward pass is computationally expensive
-   - Processes full-resolution images (700x700 or 532x952 pixels)
+   - Processes full-resolution images (704x704 or 540x960 pixels)
 
 2. **Memory Consumption**
    - Dense feature maps stored: `[B, C, H//patch_size, W//patch_size]`
-   - For 700x700 image with patch_size=16: ~44x44 = 1,936 patches
-   - For 532x952 image: ~33x59 = 1,947 patches
-   - Feature dimension: 384 (DINO) → 768 (after projection)
-   - Memory per image: ~1,936 × 768 × 4 bytes ≈ 6 MB per image
-   - Batch size 12: ~72 MB just for dense features
+   - For 704x704 image with patch_size=14: 50x50 = 2500 patches
+   - For 540x960 image: 38x68 = 2584 patches
+   - Feature dimension: 768
+   - Memory per image: ~2500 × 768 × 4 bytes ≈ 8 MB per image
+   - Batch size 12: ~92 MB just for dense features
 
 3. **No Caching**
    - Features are recomputed every epoch
@@ -88,15 +88,15 @@
 ### Issues
 
 1. **Large Image Tensors**
-   - Source images: 700×700×3 = 1.47 MB per image
-   - Dest images: 532×952×3 = 1.52 MB per image
+   - Source images: 704×704×3 = 1.49 MB per image
+   - Dest images: 540×960×3 = 1.55 MB per image
    - Batch size 12: ~36 MB for images alone
 
 2. **Multiple Masks Per Batch**
    - `N_masks_per_batch=32` masks per sample
-   - Each mask: 532×952 = 506K pixels
-   - 32 masks × 506K × 1 byte = ~16 MB per sample
-   - Batch size 12: ~192 MB for masks
+   - Each mask: 540×960 = 518K pixels
+   - 32 masks × 518K × 1 byte = ~17 MB per sample
+   - Batch size 12: ~199 MB for masks
 
 3. **Dense Feature Maps**
    - Stored for both source and destination images
@@ -105,7 +105,7 @@
 
 4. **Attention Matrices**
    - Cross-attention: `[B, N_desc, N_img]` similarity matrices
-   - For 32 masks and 1,936 patches: large attention maps
+   - For 32 masks and 2500 patches: large attention maps
 
 ### Impact
 - GPU memory pressure
