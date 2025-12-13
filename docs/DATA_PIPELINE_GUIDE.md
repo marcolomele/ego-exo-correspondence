@@ -171,10 +171,7 @@ These paths are logical identifiers parsed by the dataloader to:
 
 ### Output
 ```
-output_dir_{scenario}/
-├── train_egoexo_pairs.json
-├── val_egoexo_pairs.json
-├── test_egoexo_pairs.json
+root/dataset_jsons/
 ├── train_exoego_pairs.json
 ├── val_exoego_pairs.json
 └── test_exoego_pairs.json
